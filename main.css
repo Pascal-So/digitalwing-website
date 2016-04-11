@@ -187,8 +187,20 @@ a{
 }
 
 
+.columnParent{
+  display: flex;
+  margin: 20px;
+}
 
+.aboutColumn{
+  width: 50%;
+  padding: 10px;
+}
 
+.section{
+  max-width: 1000px;
+  margin: auto;
+}
 
 
 
