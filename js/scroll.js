@@ -22,13 +22,14 @@ $(function(){
 	var viewportHeight = window.innerHeight;
 
 	function inRange(height){
-		return Math.abs(height-currentScroll)<viewportHeight/2.2;
+		var diff = height-currentScroll
+		return Math.abs(diff)<viewportHeight/2.2;
+
 	}
 
 	function getHeight(element){
 		return $(element).offset().top;
 	}
-
 
 	var scrollToPosition = debounce(function(position, duration){
 		$('html, body').animate({ scrollTop:  position}, duration);
