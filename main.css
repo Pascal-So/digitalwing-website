@@ -176,6 +176,12 @@ body {
 body{
   color: #777;
   text-align: center;
+  
+}
+
+div{
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1{
@@ -197,7 +203,11 @@ h2{
 
 a{
   text-decoration: none;
+  cursor: pointer;
   color: #aaa;
+}
+a:hover{
+  color: #fff;
 }
 
 .profilePic{ 
@@ -246,11 +256,10 @@ a{
 
 .skill{
   width: 100%;
-  padding: 10px;
-  /*display: flex;*/
+  padding: 20px;
   margin-bottom: 50px;
   margin-top: 0px;
-  position: relative;
+  /*position: relative;*/
 }
 .skillText{
   text-align: left;
@@ -340,20 +349,19 @@ nav {
   justify-content: center;
   -webkit-justify-content: center;
   width: 100%; }
-@media(max-width: 550px) {
-  nav {
-    bottom: 30px;
+
+  @media(max-width: 800px) { nav {
+    font-size: 20px;
+
+  }}
+
+  @media(max-width: 700px) { nav {
     flex-direction: column;
     -webkit-flex-direction: column;
-    font-size: 22px; } }
-  nav span {
-    margin: 3px 40px; }
-    nav span a {
-      cursor: default;
-      color: #ccc;
-      text-decoration: none; }
-      nav span a:hover {
-        color: #fff; }
+}}
+
+nav span {
+  margin: 3px 40px; }
 
 #footer {
   height: 80px;
