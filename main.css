@@ -185,7 +185,6 @@ div{
 }
 
 h1{
-
   font-family: "CodeLight";
   font-size: 40px;
   letter-spacing: 0.2em;
@@ -198,6 +197,7 @@ h2{
   font-size: 30px;
   letter-spacing: 0.2em;
   margin-top: 20px;
+  margin-bottom: 10px;
   font-weight: 700; 
 }
 
@@ -210,34 +210,37 @@ a:hover{
   color: #fff;
 }
 
-.profilePic{ 
+.roundPic{
   height: 200px;
   width: 200px;
   background-size: cover;
   background-position: center;
-  margin: auto;
   border-radius: 50%;
 }
+@media(max-width: 750px){
+  .roundPic{
+    height: 130px;
+    width: 130px;
+  }
+}
 
-.skillImage{
-  height: 200px;
-  width: 200px;
-  background-size: cover;
-  background-position: center;
-  /*margin: auto;*/
-  border-radius: 50%;
+.profilePic{ 
+  margin: auto;
+}
+
+.skillPic{
   float: left;
 }
 
-#pancakeSkillImage{
+#pancakeSkillPic{
   background-image: url("img/pancakes.jpeg");
 }
 
-#camSkillImage{
+#camSkillPic{
   background-image: url("img/camz.jpg");
 }
 
-#starsSkillImage{
+#starsSkillPic{
   background-image: url("img/stars.jpg");
 }
 
@@ -249,9 +252,18 @@ a:hover{
   background-image: url("img/pascal.jpg"); 
 }
 
-.columnParent{
+.columnParent{     /*for about section*/
   display: flex;
+  display: -webkit-flex;
   margin: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.aboutColumn{
+  width: 50%;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .skill{
@@ -259,22 +271,15 @@ a:hover{
   padding: 20px;
   margin-bottom: 50px;
   margin-top: 0px;
-  /*position: relative;*/
 }
 .skillText{
   text-align: left;
   margin-left: 220px;
 }
-.clear{
-  clear: both;
-}
-
-.aboutColumn{
-  width: 50%;
-  padding: 10px;
-}
-.aboutColumn p{
-  height: 220px;
+@media(max-width: 750px){
+  .skillText{
+    margin-left: 150px;
+  }
 }
 
 .section{
@@ -297,6 +302,11 @@ a:hover{
 
 
 /* general design stuff */
+
+.clear{
+  clear: both;
+}
+
 
 header {
   position: relative;
@@ -352,7 +362,6 @@ nav {
 
   @media(max-width: 800px) { nav {
     font-size: 20px;
-
   }}
 
   @media(max-width: 700px) { nav {

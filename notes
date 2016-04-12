@@ -1,6 +1,8 @@
 global:
 
 font? code bold/light ok? too thin?
+Used code light with weight 700 now, which is thick enough.
+
 
 do we need a blog? probs not
 
@@ -24,14 +26,15 @@ need pics for those
 
 
 -------------ABOUT US----------------------
-add pic - together or 2 pics?
+(add pic - together or 2 pics?
 rather 2
-
 1 paragraph for each of us? or just a bit of text for both
-
 if we add 1 paragraph for each we could make a nice 2 column design
+add links to personal sites)
 
-add links to personal sites
+added 2 columns now. working on responsiveness now that they become rows on narrower displays
+
+
 
 add contact email here as well as in realizing project section?
 
