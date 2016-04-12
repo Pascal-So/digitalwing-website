@@ -1,6 +1,11 @@
 /* main.css digitalwing.ch */
 
+
+/* ############### NOTHING TO SEE HERE!! ##################### */
+
 /* ########### SCROLL DOWN TO SEE CSS TO EDIT ################ */
+
+
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -195,14 +200,35 @@ a{
   color: #aaa;
 }
 
-.profilePic{
-  
+.profilePic{ 
   height: 200px;
   width: 200px;
   background-size: cover;
   background-position: center;
   margin: auto;
   border-radius: 50%;
+}
+
+.skillImage{
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  /*margin: auto;*/
+  border-radius: 50%;
+  float: left;
+}
+
+#pancakeSkillImage{
+  background-image: url("img/pancakes.jpeg");
+}
+
+#camSkillImage{
+  background-image: url("img/camz.jpg");
+}
+
+#starsSkillImage{
+  background-image: url("img/stars.jpg");
 }
 
 #fabianPic{
@@ -218,9 +244,28 @@ a{
   margin: 20px;
 }
 
+.skill{
+  width: 100%;
+  padding: 10px;
+  /*display: flex;*/
+  margin-bottom: 50px;
+  margin-top: 0px;
+  position: relative;
+}
+.skillText{
+  text-align: left;
+  margin-left: 220px;
+}
+.clear{
+  clear: both;
+}
+
 .aboutColumn{
   width: 50%;
   padding: 10px;
+}
+.aboutColumn p{
+  height: 220px;
 }
 
 .section{
