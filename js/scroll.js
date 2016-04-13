@@ -20,6 +20,7 @@ function debounce(fn, interval){  //weird pascal implementation: don't trust thi
 $(function(){
 
 	var speedFactor = 0.4;
+	var snapScrolling = false;
 
 	var currentScroll=0;
 	var snapActive = true;
@@ -56,7 +57,7 @@ $(function(){
 		scrollToPosition($('#project').offset().top, 600*speedFactor);
 	});
 
-	if(!isMobileOrTablet){
+	if(!isMobileOrTablet && snapScrolling){
 		$(window).scroll(function(){
 			currentScroll = $(this).scrollTop();
 			var target = heights.filter(inRange);
