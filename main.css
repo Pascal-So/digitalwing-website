@@ -209,6 +209,7 @@ h2{
 
 p{
   text-align: justify;
+  font-family: 'Lato', sans-serif;
 }
 @media(max-width: 500px){
   p{
@@ -254,10 +255,10 @@ hr{
 }
 
 .rectPic{
-  height: 200px;
-  width: auto;
+  margin: 20px 70px;
+  padding-bottom: 10%; 
   background-size: cover;
-  background-position: center;
+  background-position: 50% 55%;
 }
 
 .profilePic{ 
@@ -298,17 +299,10 @@ hr{
 #pascalPic{
   background-image: url("img/pascal.jpg"); 
 }
-#realizePic0{
-  background-image: url("img/gradysunny.jpg");
-}
-
-#realizePic1{
+#camsProjectPic{
   background-image: url("img/camz.jpg");
 }
 
-#realizePic2{
-  background-image: url("img/stars.jpg");
-}
 
 .columnParent{     /*for about section*/
   display: flex;
