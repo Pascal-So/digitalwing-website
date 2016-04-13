@@ -208,6 +208,10 @@ h2{
   h2{font-size: 20px;}
 }
 
+p{
+  text-align: justify;
+}
+
 a{
   text-decoration: none;
   cursor: pointer;
@@ -317,7 +321,6 @@ hr{
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 30px;
-  text-align: justify;
 }
 @media(max-width: 720px){
   .columnParent{
