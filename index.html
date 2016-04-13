@@ -26,9 +26,9 @@
 		<br>
 
 		<nav>
-			<span id="skillsLink"><a href="#skills">SKILLS</a></span>
-			<span id="aboutLink"><a href="#about">ABOUT US</a></span>
-			<span id="projectLink"><a href="#project">REALIZING YOUR PROJECT</a></span>
+			<span id="skillsLink" class="navlink"><a href="#skills">SKILLS</a></span>
+			<span id="projectLink" class="navlink"><a href="#project">REALIZING YOUR PROJECT</a></span>
+			<span id="aboutLink" class="navlink"><a href="#about">ABOUT US</a></span>
 		</nav>
 	</header>
 
@@ -67,19 +67,57 @@
 			</div>
 			<div class="clear"></div>
 		</div>
+		
+		<div class="skill">
+			<div class="skillPic roundPic" id = "placeholderSkillPic"></div>
+			<div class="skillText">
+				<h2>Placeholder</h2>
+				<p>
+					Honk! The Placeholder is a support unit. Its projectiles create a vacuum that sucks in nearby units, clustering and holding them in place to help finish them off. 
+				</p>
+			</div>
+			<div class="clear"></div>
+		</div>
 	</div>
 
 
   <hr>
 
+	<div id="project" class="section">
+		<h1>REALIZING YOUR PROJECT</h1>
+		<br>
+		<div class="columnParent">
+			<div class="aboutColumn rectPic" id="realizePic0"></div>
+			<div class="aboutColumn rectPic" id="realizePic1"></div>
+			<div class="aboutColumn rectPic" id="realizePic2"></div>
+		</div>
+		
+		<div class="columnParent">
+			<div class="aboutColumn">
+				<p>
+					This website is a work in progress. <br>Please don't laugh about our pancake obsession. <br><br>Responsive design? Never heard of that...
+				</p>
+			</div>
+			<div class="aboutColumn">
+				<p>
+					This website is a work in progress. <br>Please don't laugh about our pancake obsession. <br><br>Responsive design? Never heard of that...
+				</p>
+			</div>
+		</div>
+		
+	</div>
+	
+
+  <hr>
+	
 	<div id="about" class="section">
 		<h1>ABOUT US</h1>
 
 		<div class="columnParent">
 			<div class="aboutColumn">
 				<div id="fabianPic" class="profilePic roundPic"></div>
-				<h2>Fabian Lyck</h2>
-        <a href="http://fabian.lyck.com/photo/index.php"> fabian.lyck.com</a>
+				<h2 class="centered">Fabian Lyck</h2>
+				<div class="centered"><a href="http://fabian.lyck.com/photo/index.php"> fabian.lyck.com</a></div>
 				<p>
 					Sitor onclusing, threw the food if drip a would. No pure was table had humbere he, key still the from. To spare wondings. Pancakes. Pancakes pancakes. Pancakes? Pancakes. Pancakes pancakes. Paaancaaaakeeess!!!! Chosent out insible. View hitemed in that he. Ther in havell as he do.
         </p>
@@ -87,8 +125,8 @@
 
 			<div class="aboutColumn">
 				<div id="pascalPic" class="profilePic roundPic"></div>
-				<h2>Pascal Sommer</h2>
-        <a href="http://pascalsommer.ch">pascalsommer.ch</a>
+				<h2 class="centered">Pascal Sommer</h2>
+				<div class="centered"><a href="http://pascalsommer.ch">pascalsommer.ch</a></div>
 				<p>
 					He came work windivide at at i little ther which it barry shed draughtly firstain tran he was arms more yearly some at on the room you. Now while, of said his back that let he simplear seried to door pare litting but size voice any past enough the leanwhich befor the he to, he care stravell vile frientle arms who seriously in, toward his the in despot get time he chief clerk but to plaim despecial, have leardly thumany strushed in, with he cover forge to himself frest had to. They was.
 				</p>
@@ -96,21 +134,14 @@
 			<div class="clear"></div>
 		</div>
 
-		<a href="mailto:contact@digitalwing.ch" id="maillink">contact@digitalwing.ch</a>
-	</div>
-
-  <hr>
-
-	<div id="project" class="section">
-		<h1>REALIZING YOUR PROJECT</h1>
-		<p>
-			This website is a work in progress. <br>Please don't laugh about our pancake obsession. <br><br>Responsive design? Never heard of that...
-		</p>
 	</div>
 
 	<div id="footer">
 		<div id="overlay">
-			<span>Pascal Sommer 2016</span>
+			<span id="leftoverlay">Pascal Sommer 2016</span>
+			<span  id="rightoverlay">
+				contac<span class="invisible">honk</span>t@digital<span class="invisible">honk</span>wing.ch
+			</span>
 		</div>
 	</div>
 

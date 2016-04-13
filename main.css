@@ -224,6 +224,18 @@ hr{
   border: 0;
 }
 
+.centered{
+	
+	text-align: center;
+}
+
+.reversed{
+	unicode-bidi:bidi-override; direction: rtl;
+}
+
+.invisible{
+	display: none;
+}
 
 .roundPic{
   height: 200px;
@@ -231,6 +243,13 @@ hr{
   background-size: cover;
   background-position: center;
   border-radius: 50%;
+}
+
+.rectPic{
+  height: 200px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
 }
 
 .profilePic{ 
@@ -260,12 +279,27 @@ hr{
   background-image: url("img/stars.jpg");
 }
 
+#placeholderSkillPic{
+  background-image: url("https://github.com/ZeroK-RTS/Zero-K/blob/master/unitpics/jumpblackhole.png?raw=true");
+}
+
 #fabianPic{
   background-image: url("img/pancakes.jpeg");
 }
 
 #pascalPic{
   background-image: url("img/pascal.jpg"); 
+}
+#realizePic0{
+  background-image: url("img/pancakes.jpeg");
+}
+
+#realizePic1{
+  background-image: url("img/camz.jpg");
+}
+
+#realizePic2{
+  background-image: url("img/stars.jpg");
 }
 
 .columnParent{     /*for about section*/
@@ -279,10 +313,11 @@ hr{
 }
 .aboutColumn{
   width: 50%;
-  padding: 10px;
+  padding: 50px;
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 30px;
+  text-align: left;
 }
 @media(max-width: 720px){
   .columnParent{
@@ -425,3 +460,14 @@ nav span {
   letter-spacing: 3px;
   font-family: "CodeLight";
   font-size: 24px; }
+#leftoverlay {
+}
+#rightoverlay {
+	font-family: initial !important;
+	right: 50px;
+	font-size: initial !important;
+	letter-spacing: initial !important;
+	left: auto !important;
+	min-width: 300px;
+	width: 30%;
+}
