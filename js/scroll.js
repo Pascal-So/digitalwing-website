@@ -13,6 +13,9 @@ function debounce(fn, interval){  //weird pascal implementation: don't trust thi
 
 $(function(){
 
+	var viewportHeight = window.innerHeight;
+	$("header").css("height", viewportHeight + "px");
+	$(".section").css("min-height", viewportHeight + "px");
 	var speedFactor = 0.4;
 	
 
