@@ -209,7 +209,7 @@ h2{
 
 p{
   text-align: justify;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', 'Helvetica', sans-serif;
 }
 @media(max-width: 500px){
   p{
