@@ -189,6 +189,7 @@ h1{
   font-size: 40px;
   letter-spacing: 0.2em;
   margin-top: 20px;
+  margin-bottom: 10px;
   font-weight: 700;
 }
 
@@ -231,20 +232,21 @@ hr{
   background-position: center;
   border-radius: 50%;
 }
-@media(max-width: 750px){
-  .roundPic{
+
+.profilePic{ 
+  margin: auto;
+}
+@media(max-width: 750px){ /*make profile pic smaller for narrow screens*/
+  .profilePic{
     height: 130px;
     width: 130px;
   }
 }
 
-.profilePic{ 
-  margin: auto;
-}
-
 .skillPic{
   float: left;
 }
+/*don't make skillPic smaller*/
 
 #pancakeSkillPic{
   background-image: url("img/pancakes.jpeg");
@@ -304,9 +306,14 @@ hr{
   text-align: left;
   margin-left: 220px;
 }
-@media(max-width: 750px){
+@media(max-width: 690px){
   .skillText{
-    margin-left: 150px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .skillPic{
+    float: none;
+    margin: auto;
   }
 }
 
