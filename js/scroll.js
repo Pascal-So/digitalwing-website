@@ -71,7 +71,7 @@ $(function(){
 
 
 
-	$(document).keypress(function(event){ // pageup 33 pagedown 34 keyCode
+	$(document).keydown(function(event){ // pageup 33 pagedown 34 keyCode
 		//alert(event.keyCode);
 		heights = sections.map(getHeight);
 		currentScroll = $(window).scrollTop();
