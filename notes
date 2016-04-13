@@ -1,8 +1,8 @@
 global:
 
-why are we using git(hub) for communication?
+U KNOW WHAT LET'S GET RID OF THAT STUPID SCROLLING THING ALLTOGETHER. IT'S STARTING TO ANNOY ME LIKE HELL.
 
-we'll need a german version. detect via browser settings?
+why are we using git(hub) for communication?
 
 
 font? code bold/light ok? too thin?
@@ -11,26 +11,10 @@ Used code light with weight 700 now, which is thick enough.
 ill test on 1440p screen later
 
 
-do we need a blog? probs not
--
-nah, i'd just include some of our jobs in the static site
-
-
-title background picture:
-i like how martin is pointing upwards to the dissappearing title when you scroll..
-tempted to keep this picture there
--
-dont we have anything similar with better quality? 
-it's not bad, but colors seem a bit off (mostly cuz artifacts) and it's very blurry.
-how about having multiple background pictures with a random one selected on each load?
-my problem is just that we want to sell quality, and while that might be a nice shot, 
-details could hardly be worse
-
-
-subtitile - cinematography?
--
-gud enuf
-
+TODO:
+Better title pic
+german version + detection
+include jobs on static site
 
 sections:
 
@@ -57,13 +41,6 @@ might wanna use 2 columns if we get too many
 
 
 -------------ABOUT US----------------------
-(add pic - together or 2 pics?
-rather 2
-1 paragraph for each of us? or just a bit of text for both
-if we add 1 paragraph for each we could make a nice 2 column design
-add links to personal sites)
-
-added 2 columns now. working on responsiveness now that they become rows on narrower displays
 
 
 
@@ -71,22 +48,9 @@ add contact email here as well as in realizing project section?
 -
 use some magic to hide mail from crawlers, otherwise we gonna get overwhelmed by spam.
 
-i cant stand centered text (also comic sans)
+i cant stand centered text (also comic sans) - well fking hell get rid of your comic sans then :D
 
 ------------REALIZING YOUR PROJECT--------
-
-realize? realise?
-title too long? might not work on mobile as well
--
-realize
-
-maybe just: "your project" - is that clear enough?
--
-doesnt seem broken: https://i.imgur.com/o5iQwkv.png
-
-move above about section?
--
-yup
 
 
 can we give pricing estimates?
