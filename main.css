@@ -175,8 +175,6 @@ body {
 
 body{
   color: #777;
-  text-align: center;
-  
 }
 
 div{
@@ -191,6 +189,7 @@ h1{
   margin-top: 20px;
   margin-bottom: 10px;
   font-weight: 700;
+  text-align: center;
 }
 
 
@@ -341,7 +340,6 @@ hr{
   margin-top: 0px;
 }
 .skillText{
-  text-align: left;
   margin-left: 220px;
 }
 @media(max-width: 690px){
