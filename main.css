@@ -234,7 +234,6 @@ hr{
 }
 
 .centered{
-	
 	text-align: center;
 }
 
@@ -367,6 +366,10 @@ hr{
   padding-top: 20px;
 }
 
+.email:hover{
+  cursor: pointer;
+  color: #ccc;
+}
 
 
 
