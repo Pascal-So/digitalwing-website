@@ -210,6 +210,11 @@ h2{
 p{
   text-align: justify;
 }
+@media(max-width: 500px){
+  p{
+    font-size: 80%;
+  }
+}
 
 a{
   text-decoration: none;
@@ -321,6 +326,11 @@ hr{
   padding-bottom: 0px;
   margin-bottom: 30px;
 }
+@media(max-width: 750px){
+  .aboutColumn{
+    padding: 0 20px;
+  }
+}
 @media(max-width: 720px){
   .columnParent{
     -webkit-flex-direction: column;
@@ -330,6 +340,7 @@ hr{
   }
   .aboutColumn{
     width: 100%;
+    padding: 0;
   }
 }
 
