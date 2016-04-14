@@ -72,16 +72,18 @@ $(function(){
 
 
 
-	$(document).keydown(function(event){ // pageup 33 pagedown 34 keyCode
+	$(document).keydown(function(event){
 		//alert(event.keyCode);
 		heights = sections.map(getHeight);
 		currentScroll = $(window).scrollTop();
 		switch(event.keyCode){
-			case 34:
+			case 34: //pagedown
+			case 40: //arrowdown
 			event.preventDefault();			
 			scrollToNextSection(heights, currentScroll);
 			break;
-			case 33:
+			case 33: //pageup
+			case 38: //arrowup
 			event.preventDefault();
 			scrollToPreviousSection(heights, currentScroll);
 			break;
