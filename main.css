@@ -387,9 +387,9 @@ hr{
   background: black;
   position: fixed;
   width: 80vw;
-  top: 10vh;
+  top: 5vh;
   left: 10vw;
-  padding-bottom: 42%;
+  padding-bottom: 46%;
   z-index: 3;
 }
 
