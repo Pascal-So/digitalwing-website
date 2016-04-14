@@ -287,12 +287,12 @@ hr{
   filter: alpha(opacity=80);
 }
 
-#pancakeSkillPic{
-  background-image: url("img/camz.jpg");
+#lowLightSkillPic{
+  background-image: url("img/bg.jpg");
 }
 
-#camSkillPic{
-  background-image: url("img/camz.jpg");
+#editingSkillPic{
+  background-image: url("img/shot.jpg");
 }
 
 #starsSkillPic{
