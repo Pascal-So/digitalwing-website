@@ -187,7 +187,7 @@ h1{
   font-size: 40px;
   letter-spacing: 0.2em;
   margin-top: 35px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-weight: 700;
   text-align: center;
 }
@@ -327,16 +327,7 @@ hr{
   background-image: url("img/camz.jpg");
   display: none;
 }
-#projectWrapper{
-	width: 100%;
-	background-image: url("img/bg.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-}
-#projectBrightener{
-	background: rgba(255,255,255,0.8);
-	color: #444;
-}
+
 
 .columnParent{     /*for about section*/
   display: flex;
@@ -459,62 +450,83 @@ iframe{
   background: rgba(0, 0, 0, 0.6);
 }
 
-
-.fancySection{
-  width: 100%;
-  min-height: 100vh;
-  background-image: url("img/gradysunny.jpg");
+.sectionBackground{
+  background-image: url("img/bg.jpg");
   background-attachment: fixed;
   background-size: cover;
-
-  position: relative;
 }
 
-.column{
-  position: absolute;
+.sectionContainer{
   top: 0;
   bottom: 0;
-
-  padding: 200px 50px;
-
+  min-height: 100vh;
+  width: 100vwf;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255,255,255,0.8);
+  color: #444;
+}
+.newSection{
+  max-width: 32cm;
+  margin: auto;
 }
 
-.leftColumn{
+#about{
+  width: 100%;
+  //height: wrap-content;
+}
 
-  float: left;
+#aboutContainer{
+  position: relative;
+  //height: 100px;
+}
+
+#aboutbg1{
   width: 50%;
-  text-align: right !important;
-  background-color: rgba(0,0,0,0.8);
-}
-.rightColumn{
-  margin-left: 50%;
-  text-align: left;
-  background-color: #080808;
-}
-/*
-.leftColumn{
-  left: 0;
-  background-image: url("img/gradysunny.jpg");
-  text-align: right !important;
+  background-image: url("img/pancakes.jpeg");
   background-attachment: fixed;
   background-size: cover;
+  float: left;
+  //min-height: 100px;
 }
 
-.rightColumn{
-  right: 0;
-  padding-right: 200px;
-}
-
-.columnDarken{
-  padding: 200px 50px;
+#aboutbg2{
+  background-image: url("img/pascal.jpg");
+  background-attachment: fixed;
+  background-size: cover;
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0,0,0,0.8);
+  margin-left: 50%;
+  //min-height: 100px;
 }
-*/
+
+#aboutcontent1{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0,0,0,0.9);
+}
+
+#aboutcontent2{
+ 
+  width: 100%;
+  min-height: 100vh; 
+  background-color: rgba(0,0,0,0.9);
+}
+
+#aboutContent{
+
+  top: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  //background-color: red;
+}
+
+
+
+
+
+
 
 
 
