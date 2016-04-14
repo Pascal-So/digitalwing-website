@@ -469,7 +469,7 @@ iframe{
   background-image: url("img/bg.jpg");
   background-attachment: fixed;
   background-size: cover;
-  
+  background-position: center center;
 }
 
 #projectFlexContainer{
