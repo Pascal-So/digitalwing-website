@@ -13,6 +13,7 @@ function debounce(fn, interval){  //weird pascal implementation: don't trust thi
 
 $(function(){
 
+	
 	var speedFactor = 0.4;
 	
 
@@ -71,7 +72,7 @@ $(function(){
 
 
 
-	$(document).keypress(function(event){ // pageup 33 pagedown 34 keyCode
+	$(document).keydown(function(event){ // pageup 33 pagedown 34 keyCode
 		//alert(event.keyCode);
 		heights = sections.map(getHeight);
 		currentScroll = $(window).scrollTop();

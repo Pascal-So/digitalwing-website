@@ -187,7 +187,7 @@ h1{
   font-size: 40px;
   letter-spacing: 0.2em;
   margin-top: 35px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   font-weight: 700;
   text-align: center;
 }
@@ -209,6 +209,12 @@ h2{
 
 p{
   text-align: justify;
+  font-family: 'Lato', 'Helvetica', sans-serif;
+}
+@media(max-width: 500px){
+  p{
+    font-size: 80%;
+  }
 }
 
 a{
@@ -228,7 +234,6 @@ hr{
 }
 
 .centered{
-	
 	text-align: center;
 }
 
@@ -249,10 +254,10 @@ hr{
 }
 
 .rectPic{
-  height: 200px;
-  width: auto;
+  margin: 20px 70px;
+  padding-bottom: 10%; 
   background-size: cover;
-  background-position: center;
+  background-position: 50% 55%;
 }
 
 .profilePic{ 
@@ -267,11 +272,23 @@ hr{
 
 .skillPic{
   float: left;
+  text-align: center;
 }
-/*don't make skillPic smaller*/
+.playIconGoesHere{
+  width: 50%;
+  display: inline;;
+  position: relative;
+  top: 33%;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+.skillPic:hover .playIconGoesHere{
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
 
 #pancakeSkillPic{
-  background-image: url("img/pancakes.jpeg");
+  background-image: url("img/camz.jpg");
 }
 
 #camSkillPic{
@@ -293,17 +310,10 @@ hr{
 #pascalPic{
   background-image: url("img/pascal.jpg"); 
 }
-#realizePic0{
-  background-image: url("img/pancakes.jpeg");
-}
-
-#realizePic1{
+#camsProjectPic{
   background-image: url("img/camz.jpg");
 }
 
-#realizePic2{
-  background-image: url("img/stars.jpg");
-}
 
 .columnParent{     /*for about section*/
   display: flex;
@@ -321,6 +331,11 @@ hr{
   padding-bottom: 0px;
   margin-bottom: 30px;
 }
+@media(max-width: 750px){
+  .aboutColumn{
+    padding: 0 20px;
+  }
+}
 @media(max-width: 720px){
   .columnParent{
     -webkit-flex-direction: column;
@@ -330,6 +345,7 @@ hr{
   }
   .aboutColumn{
     width: 100%;
+    padding: 0;
   }
 }
 
@@ -362,7 +378,59 @@ hr{
   padding-top: 20px;
 }
 
+.email:hover{
+  cursor: pointer;
+  color: #ccc;
+}
 
+#ytOverlay{
+  background: black;
+  position: fixed;
+  width: 80vw;
+  top: 10vh;
+  left: 10vw;
+  padding-bottom: 42%;
+  z-index: 3;
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
+}
+
+#closeButton{
+  width: 30px;
+  height: 30px;
+  
+  border: 2px white solid;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: -40px;
+  z-index: 100;
+}
+
+#closeIcon{
+  position: relative;
+  top: 25%;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  background-image: url("img/x.png");
+  background-size: cover;
+}
+
+#screenDarkener{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
 
 
 
