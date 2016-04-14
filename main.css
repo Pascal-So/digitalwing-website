@@ -404,13 +404,15 @@ iframe{
 #closeButton{
   width: 30px;
   height: 30px;
-  
   border: 2px white solid;
   border-radius: 50%;
   position: absolute;
   top: 0px;
   right: -40px;
   z-index: 100;
+}
+#closeButton:hover{
+  cursor: pointer;
 }
 
 #closeIcon{
@@ -422,6 +424,7 @@ iframe{
   background-image: url("img/x.png");
   background-size: cover;
 }
+
 
 #screenDarkener{
   height: 100vh;

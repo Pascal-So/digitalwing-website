@@ -19,7 +19,7 @@ $(function(){
 
 	});
 
-	$("#closeIcon").click(function(){
+	$("#closeButton").click(function(){
 		closeOverlay();
 	})
 
