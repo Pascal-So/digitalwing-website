@@ -325,8 +325,18 @@ hr{
 }
 #camsProjectPic{
   background-image: url("img/camz.jpg");
+  display: none;
 }
-
+#projectWrapper{
+	width: 100%;
+	background-image: url("img/bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+#projectBrightener{
+	background: rgba(255,255,255,0.8);
+	color: #444;
+}
 
 .columnParent{     /*for about section*/
   display: flex;

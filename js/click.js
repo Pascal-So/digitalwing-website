@@ -15,6 +15,8 @@ $(function(){
 		$("#screenDarkener").removeClass("invisible");
 		var options = "autoplay=1&rel=0&enablejsapi=1";
 		var id = $(this).attr('id');
+		var padding = $(this).attr('aspect');
+		$("#ytOverlay").css("padding-bottom", padding);
 		$("#hereBePlayer").html("<iframe src=\"https://www.youtube.com/embed/" + id + "?" + options + "\" frameborder=\"0\" allowfullscreen></iframe>");
 
 	});
