@@ -296,8 +296,8 @@ hr{
   filter: alpha(opacity=30);
 }
 #dynamicSkillPic .playIconGoesHere{
-  opacity: 0.15;
-  filter: alpha(opacity=15);
+  opacity: 0.10;
+  filter: alpha(opacity=10);
 }
 
 #lowLightSkillPic{
