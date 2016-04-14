@@ -464,18 +464,22 @@ iframe{
   background: rgba(0, 0, 0, 0.6);
 }
 
-.sectionBackground{
+#projectBackground{
   background-image: url("img/bg.jpg");
   background-attachment: fixed;
   background-size: cover;
-  color: #444;
+  
 }
 
-.sectionContainer{
+#projectFlexContainer{
+  color: #444;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.sectionFlexContainer{
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  background-color: rgba(255,255,255,0.8);
   
 }
 .newSection{
@@ -483,11 +487,6 @@ iframe{
   margin: auto;
 }
 
-#aboutContainer{
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-}
 
 
 
