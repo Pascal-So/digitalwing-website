@@ -263,12 +263,26 @@ hr{
 .profilePic{ 
   margin: auto;
 }
+
+.profilePicContainer{
+  width: 100%;
+  height: 70px;
+}
+.pPicDarkener{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(08,08,08,0.8);
+}
 @media(max-width: 750px){ /*make profile pic smaller for narrow screens*/
   .profilePic{
-    height: 130px;
-    width: 130px;
+    height: 160px;
+    width: 160px;
+  }
+  .profilePicContainer{
+    height: 40px;
   }
 }
+
 
 .skillPic{
   float: left;
@@ -471,56 +485,6 @@ iframe{
   margin: auto;
 }
 
-#about{
-  width: 100%;
-  //height: wrap-content;
-}
-
-#aboutContainer{
-  position: relative;
-  //height: 100px;
-}
-
-#aboutbg1{
-  width: 50%;
-  background-image: url("img/pancakes.jpeg");
-  background-attachment: fixed;
-  background-size: cover;
-  float: left;
-  //min-height: 100px;
-}
-
-#aboutbg2{
-  background-image: url("img/pascal.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
-  margin-left: 50%;
-  //min-height: 100px;
-}
-
-#aboutcontent1{
-  width: 100%;
-  min-height: 100vh;
-  background-color: rgba(0,0,0,0.9);
-}
-
-#aboutcontent2{
- 
-  width: 100%;
-  min-height: 100vh; 
-  background-color: rgba(0,0,0,0.9);
-}
-
-#aboutContent{
-
-  top: 0;
-  right: 0;
-  left: 0;
-  position: absolute;
-  text-align: center;
-  //background-color: red;
-}
 
 
 
