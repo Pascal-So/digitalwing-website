@@ -460,8 +460,61 @@ iframe{
 }
 
 
+.fancySection{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("img/gradysunny.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 
+  position: relative;
+}
 
+.column{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  padding: 200px 50px;
+
+}
+
+.leftColumn{
+
+  float: left;
+  width: 50%;
+  text-align: right !important;
+  background-color: rgba(0,0,0,0.8);
+}
+.rightColumn{
+  margin-left: 50%;
+  text-align: left;
+  background-color: #080808;
+}
+/*
+.leftColumn{
+  left: 0;
+  background-image: url("img/gradysunny.jpg");
+  text-align: right !important;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.rightColumn{
+  right: 0;
+  padding-right: 200px;
+}
+
+.columnDarken{
+  padding: 200px 50px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+}
+*/
 
 
 
