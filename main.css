@@ -283,8 +283,21 @@ hr{
   filter: alpha(opacity=20);
 }
 .skillPic:hover .playIconGoesHere{
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  opacity: 0.8 !important;
+  filter: alpha(opacity=80) !important;
+}
+
+#lowLightSkillPic .playIconGoesHere{
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+#editingSkillPic .playIconGoesHere{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+#dynamicSkillPic .playIconGoesHere{
+  opacity: 0.15;
+  filter: alpha(opacity=15);
 }
 
 #lowLightSkillPic{
@@ -295,11 +308,11 @@ hr{
   background-image: url("img/shot.jpg");
 }
 
-#starsSkillPic{
-  background-image: url("img/stars.jpg");
+#dynamicSkillPic{
+  background-image: url("img/jazz.jpg");
 }
 
-#placeholderSkillPic{
+#flexibleSkillPic{
   background-image: url("https://github.com/ZeroK-RTS/Zero-K/blob/master/unitpics/jumpblackhole.png?raw=true");
 }
 
