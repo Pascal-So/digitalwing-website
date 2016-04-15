@@ -5,22 +5,22 @@ $(function(){
 	var titleAbout = "&Uuml;ber uns&nbsp;&nbsp;&nbsp;";
 	
 	var skillDynamicTitle = "Bewegte Aufnahmen";
-	var skillDynamicText = "Tired of static perspectives shot on a tripod in the corner of the room? Not only do we change perspective for every shot, we can also offer smooth camera movements that emphasize the action. Thanks to our experience we can find the most interesting looking angles and don't miss a moment.";
+	var skillDynamicText = "Keine Lust mehr auf statische Perspektiven von einem Stativ in der Ecke des Raums aus? Wir &auml;ndern nicht nur die Position nach jeder Aufnahme, sondern k&ouml;nnen auch fl&uuml;ssige Kamerabewegungen bieten. Damit wirkt die Action umso mehr. Dank unserer Erfahrung k&ouml;nnen wir die spannendsten Winkel finden ohne einen Moment zu verpassen.";
 	
 	var skillLowLightTitle = "Verf&uuml;gbares Licht";
-	var skillLowLightText = "From the beginning, we've been working in dim and harsh lighting conditions. Our experience allows us to capture the atmosphere in your nightclub or during the moonlight scene without disturbing the moment with heavy lighting equipment. We favour realism over artificially perfecting every little detail.";
+	var skillLowLightText = "Von Anfang mussten wir uns an schwache und anderweitig suboptimale Lichtverh&auml;ltnisse gew&ouml;hnen. Deswegen k&ouml;nnen wir jetzt die Stimmung in der Disko oder die Ambiente der Mondlichtszene realit&auml;tsgetreu reproduzieren - ganz ohne zus&auml;tzliches Licht. Wir ziehen Realismus vor, anstatt jedes kleine Detail k&uuml;nstlich zu perfektionieren.";
 	
 	var skillEditingTitle = "Schnitt";
-	var skillEditingText = "Whether it is an action packed commercial or a frugal documentary, our experience in 2D and 3D visual effects can enrich your production. When it comes to giving your project the finishing touch, we can organize a soundtrack for you and enhance the footage with a vibrant colour grade.";
+	var skillEditingText = "Ob actiongeladener Werbespot oder schlichter Dokumentarfilm, unsere Erfahrung in zwei- and dreidimensionalen visuellen Effekten bereichert ihre Produktion. Wenn es um den letzten Schliff ihres Projekts geht, besorgen wir Ihnen gerne einen individuellen Soundtrack und versch&ouml;nern das Material mit einer lebhaften Farbkorrektur.";
 	
 	var skillFlexibleTitle = "Flexibilit&auml;t";
 	var skillFlexibleText = "Thanks to our lightweight equipment, we're able to reach every location. We are networked with other filmmakers which allows us to bring in specialists. In short: <i>We do everything for the shot.</i>"
 	
-	var projectColumn0Text = "";
-	var projectColumn1Text = "";
+	var projectColumn0Text = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.";
+	var projectColumn1Text = "Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ";
 	
-	var aboutFabianText = "";
-	var aboutPascalText = "";
+	var aboutFabianText = "Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen ";
+	var aboutPascalText = "Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne ";
 	
 	var language = (window.navigator.userLanguage || window.navigator.language).substr(0,2);
 	
