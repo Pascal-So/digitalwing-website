@@ -195,7 +195,7 @@ h1{
 
 h2{
   font-family: "CodeLight";
-  font-size: 30px;
+  font-size: 28px;
   letter-spacing: 0.2em;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -204,7 +204,7 @@ h2{
 
 @media(max-width: 600px){
   h1{font-size: 30px;}
-  h2{font-size: 20px;}
+  h2{font-size: 25px;}
 }
 
 p{
@@ -266,7 +266,7 @@ hr{
 
 .profilePicContainer{
   width: 100%;
-  height: 70px;
+  text-align: center;
 }
 .pPicDarkener{
   border-radius: 48%;
@@ -274,13 +274,21 @@ hr{
   height: 100%;
   background-color: rgba(16,16,16,0.8);
 }
-@media(max-width: 750px){ /*make profile pic smaller for narrow screens*/
+.profilePicCenterer{
+  display: inline-block;
+}
+
+.profilePicCenterer a{
+  float: left;
+  margin-top: 50px;
+}
+@media(max-width: 760px){ /*make profile pic smaller for narrow screens*/
   .profilePic{
     height: 160px;
     width: 160px;
   }
-  .profilePicContainer{
-    height: 40px;
+  .profilePicCenterer a{
+    margin-top: 30px;
   }
 }
 
@@ -360,7 +368,7 @@ hr{
   padding-bottom: 0px;
   margin-bottom: 30px;
 }
-@media(max-width: 750px){
+@media(max-width: 880px){
   .aboutColumn{
     padding: 0 20px;
   }
