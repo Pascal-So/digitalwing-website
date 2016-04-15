@@ -12,6 +12,7 @@
 	<script src="js/scroll.js"></script>
 	<script src="js/click.js"></script>
 	<script src="js/loadup.js"></script>
+	<script src="js/lang.js"></script>
 
 </head>
 
@@ -27,21 +28,21 @@
 		<br>
 
 		<nav>
-			<span id="skillsLink" class="navlink"><a href="#skills">EXPERTISE</a></span>
-			<span id="projectLink" class="navlink"><a href="#project">REALIZING YOUR&nbsp;PROJECT</a></span>
-			<span id="aboutLink" class="navlink"><a href="#about">ABOUT US</a></span>
+			<span id="skillsLink" class="navlink"><a href="#skills" class="titleSkills">EXPERTISE</a></span>
+			<span id="projectLink" class="navlink"><a href="#project" class="titleProject">REALIZING YOUR&nbsp;PROJECT</a></span>
+			<span id="aboutLink" class="navlink"><a href="#about" class="titleAbout">ABOUT US</a></span>
 		</nav>
 	</header>
 
 <br><br><br>
 
 	<div id="skills" class="section">
-		<h1>EXPERTISE</h1>
+		<h1 class="titleSkills">EXPERTISE</h1>
 		<div class="skill">
 			<a href="https://youtu.be/NL3joKd7P-A" id="NL3joKd7P-A" aspect="34.4%" class="skillLink"><div class="skillPic roundPic" id = "dynamicSkillPic"><img src="img/playIcon.svg" class="playIconGoesHere"/></div></a>
 			<div class="skillText">
-				<h2>Dynamic shots</h2>
-				<p>
+				<h2 id="skillDynamicTitle">Dynamic shots</h2>
+				<p id="">
 					Tired of static perspectives shot on a tripod in the corner of the room? Not only do we change perspective for every shot, we can also offer smooth camera movements that emphasize the action. Thanks to our experience we can find the most interesting looking angles and don't miss a moment.
 				</p>
 			</div>
@@ -50,8 +51,8 @@
 		<div class="skill">
 			<a href="https://youtu.be/RFJGh29AScw" id="RFJGh29AScw" aspect="45.0%" class="skillLink"><div class="skillPic roundPic" id = "lowLightSkillPic"><img src="img/playIcon.svg" class="playIconGoesHere"/></div></a>
 			<div class="skillText">
-				<h2>Available light</h2>
-				<p>
+				<h2 id="skillLowLightTitle">Available light</h2>
+				<p id="skillLowLightText">
 					From the beginning, we've been working in dim and harsh lighting conditions. Our experience allows us to capture the atmosphere in your nightclub or during the moonlight scene without disturbing the moment with heavy lighting equipment. We favour realism over artificially perfecting every little detail.
 				</p>
 			</div>
@@ -60,8 +61,8 @@
 		<div class="skill">
 			<a href="https://youtu.be/41R56juAyfA" id="41R56juAyfA" aspect="45.0%" class="skillLink"><div class="skillPic roundPic" id = "editingSkillPic"><img src="img/playIcon.svg" class="playIconGoesHere"/></div></a>
 			<div class="skillText">
-				<h2>Editing and Effects</h2>
-				<p>
+				<h2 id="skillEditingTitle">Editing and Effects</h2>
+				<p id="skillEditingText">
 					Whether it is an action packed commercial or a frugal documentary, our experience in 2D and 3D visual effects can enrich your production. When it comes to giving your project the finishing touch, we can organize a soundtrack for you and enhance the footage with a vibrant colour grade.
 				</p>
 			</div>
@@ -70,8 +71,8 @@
 		<div class="skill">
 			<a href="https://youtu.be/NL3joKd7P-A" id="NL3joKd7P-A" aspect="34.4%" class="skillLink"><div class="skillPic roundPic" id = "flexibleSkillPic"><img src="img/playIcon.svg" class="playIconGoesHere"/></div></a>
 			<div class="skillText">
-				<h2>Flexibility</h2>
-				<p>
+				<h2 id="skillFlexibleTitle">Flexibility</h2>
+				<p id="skillFlexibleText">
 					Thanks to our lightweight equipment, we're able to reach every location. We are networked with other filmmakers which allows us to bring in specialists. In short: <i>We do everything for the shot.</i>
 				</p>
 			</div>
@@ -83,17 +84,17 @@
 <div class="projectBackground" id="project">
 	<div class = "sectionFlexContainer" id="projectFlexContainer">
 		<div class="newSection">
-			<h1>REALIZING YOUR&nbsp;PROJECT</h1>
+			<h1 class="titleProject">REALIZING YOUR&nbsp;PROJECT</h1>
 			<br><hr>
 			<div class="rectPic" id="camsProjectPic"></div>
 			<div class="columnParent">
 				<div class="aboutColumn">
-				<p>
+				<p id="projectColumn0Text">
 					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
 				</p>
 				</div>
 				<div class="aboutColumn">
-				<p>
+				<p id="projectColumn1Text">
 					Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. 
 				</p>	
 				</div>
@@ -115,7 +116,7 @@
   
 <div class="sectionFlexContainer" id="about">
 	<div class="newSection">
-		<h1>ABOUT US</h1>
+		<h1 class="titleAbout">ABOUT US</h1>
 		<br>
 		<div class="columnParent">
 			<div class="aboutColumn">
@@ -126,7 +127,7 @@
 					</a>
 				</div>
 				
-				<p>
+				<p id="aboutFabianText">
 					Sitor onclusing, threw the food if drip a would. No pure was table had humbere he, key still the from. To spare wondings. Pancakes. Pancakes pancakes. Pancakes? Pancakes. Pancakes pancakes. Paaancaaaakeeess!!!! Chosent out insible. View hitemed in that he. Ther in havell as he do.
         		</p>
 			</div>
@@ -139,7 +140,7 @@
 					</a>
 				</div>
 				
-				<p>
+				<p id="aboutPascalText">
 					He came work windivide at at i little ther which it barry shed draughtly firstain tran he was arms more yearly some at on the room you. Now while, of said his back that let he simplear seried to door pare litting but size voice any past enough the leanwhich befor the he to, he care stravell vile frientle arms who seriously in, toward his the in despot get time he chief clerk but to plaim despecial, have leardly thumany strushed in, with he cover forge to himself frest had to. They was.
 				</p>
 			</div>
