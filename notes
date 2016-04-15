@@ -1,9 +1,6 @@
 global:
 
 
-why are we using git(hub) for communication?
-
-
 font? code bold/light ok? too thin?
 Used code light with weight 700 now, which is thick enough.
 -
@@ -16,20 +13,16 @@ include jobs on static site
 
 sections:
 
-skills, about us, realizing your project
+expertise, about us, realizing your project
 
 
---------------SKILLS-------------------------
+--------------EXPERTISE-------------------------
 
+Dynamic Shots
 Available light
-dynamic perspectives (i hate this title, just wanna say we're not sitting with our tripod in one place whole event)
 Editing
-flexible
+Flexibility
 
-
-need pics for those
-
-KEEP TITLES SHORT, OR ELSE DESIGN BREAKS!
 
 
 
@@ -37,12 +30,6 @@ KEEP TITLES SHORT, OR ELSE DESIGN BREAKS!
 
 
 
-add contact email here as well as in realizing project section?
--
-use some magic to hide mail from crawlers, otherwise we gonna get overwhelmed by spam.
-bbbut not clickable anymore.. :(
-
-i cant stand centered text (also comic sans) - justified better? also get rid of comic sans in ur browser plz ffs
 
 ------------REALIZING YOUR PROJECT--------
 
@@ -51,6 +38,3 @@ can we give pricing estimates?
 -
 not yet
 
-contact information
--
-at bottom(impressum) and realizatiotioitnon of ur projectsome new line
