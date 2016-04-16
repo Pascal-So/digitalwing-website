@@ -506,7 +506,7 @@ iframe{
   width: 300px;
   margin: auto;
 }
-@media(max-width: 500px){
+@media(max-width: 500px)
   #logo{
     height: 100px;
     width: 220px;
@@ -638,3 +638,42 @@ nav span {
     right: auto;
     left: 50px;
 }}
+
+#languageSelector {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	padding: 10px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 0px 0px 0px 5px;
+	font-family: "CodeLight";
+	font-weight: 700;
+	font-size: 20px;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+@media(max-width: 600px) { 
+	#languageSelector{
+		text-align: center;
+		width: 100%;
+		border-radius: 0px;
+		position: absolute;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+	}
+	.langLink {
+		width: 50%;
+		margin: auto;
+	}
+}
+.langLink {
+	margin-top: 5px;
+}
+.langLink a{
+	color: #ddd;
+}

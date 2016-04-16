@@ -21,6 +21,7 @@ $(function(){
 
 	});
 
+	
 	$("#closeButton").click(function(){
 		closeOverlay();
 	})
