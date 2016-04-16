@@ -506,7 +506,7 @@ iframe{
   width: 300px;
   margin: auto;
 }
-@media(max-width: 500px)
+@media(max-width: 500px){
   #logo{
     height: 100px;
     width: 220px;
@@ -644,6 +644,7 @@ nav span {
 	top: 0px;
 	right: 0px;
 	padding: 10px;
+	padding-bottom: 5px;
 	text-align: center;
 	background: rgba(0, 0, 0, 0.4);
 	border-radius: 0px 0px 0px 5px;
@@ -672,8 +673,12 @@ nav span {
 	}
 }
 .langLink {
-	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .langLink a{
 	color: #ddd;
 }
+.langLink a:hover{
+	color: #fff;
+}
+

@@ -54,19 +54,19 @@ $(function(){
 	}
 
 
- 
+	$(".navlink > a").attr("href", "#title");
 
 	$('#skillsLink').click(function(e){
-		e.preventDefault();
 		scrollToPosition($('#skills').offset().top, 400*speedFactor);
 	});
 	$('#aboutLink').click(function(e){
-		e.preventDefault();
 		scrollToPosition($('#about').offset().top, 500*speedFactor);
 	});
 	$('#projectLink').click(function(e){
-		e.preventDefault();
 		scrollToPosition($('#project').offset().top, 600*speedFactor);
+	});
+	$('#titleLink').click(function(e){
+		scrollToPosition($('#title').offset().top, 500*speedFactor);
 	});
 
 

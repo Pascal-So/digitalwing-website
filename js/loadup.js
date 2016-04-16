@@ -7,4 +7,6 @@ $(function(){
 			$(".sectionFlexContainer").css("min-height", viewportHeight + "px");
 		}, 500);
 	});
-})
+	
+
+});
