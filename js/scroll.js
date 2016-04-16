@@ -14,7 +14,7 @@ function debounce(fn, interval){  //weird pascal implementation: don't trust thi
 $(function(){
 
 	
-	var speedFactor = 0.4;
+	var speedFactor = 1;
 	
 
 	var currentScroll=0;

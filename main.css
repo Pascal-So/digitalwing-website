@@ -163,7 +163,7 @@ html {
   background: #111; }
 
 body {
-  width: 100vw;
+  width: auto;
   margin: 0; 
 }
 
