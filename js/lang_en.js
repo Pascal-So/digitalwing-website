@@ -1,8 +1,8 @@
 $(function(){
 	
-	var titleSkills =     "Kompetenzen";
-	var titleProject =    "Ihr Projekt";
-	var titleAbout = "&nbsp;&Uuml;ber uns&nbsp;&nbsp;";
+	var titleSkills =     "Expertise";
+	var titleProject =    "Realizing your&nbsp;Project";
+	var titleAbout = "About us";
 	
 	var skillDynamicTitle = "Dynamic shots";
 	var skillDynamicText = "Tired of static perspectives? We change perspective for every shot. We also offer smooth camera movements that emphasize the action. We find the most interesting looking angles without missing a moment.";
@@ -20,7 +20,7 @@ $(function(){
 	var projectColumn1Text = "Feel free to contact us with inquiries about estimated time frames. We'll do our best to give you an accurate prediction after discussing your plans with you.";
 	
 	var aboutFabianText = "";
-	var aboutPascalText = "";
+	var aboutPascalText = "After taking up photography in 2012, I kept trying to find out new ways to capture motion in a still image. Whenever possible, I'm always happy to bring in knowledge from some of my other favourite activities, such as computer science or music.";
 	
 	var language = (window.navigator.userLanguage || window.navigator.language).substr(0,2);
 	
