@@ -78,12 +78,12 @@ $(function(){
 		currentScroll = $(window).scrollTop();
 		switch(event.keyCode){
 			case 34: //pagedown
-			case 40: //arrowdown
+			//case 40: //arrowdown
 			event.preventDefault();			
 			scrollToNextSection(heights, currentScroll);
 			break;
 			case 33: //pageup
-			case 38: //arrowup
+			//case 38: //arrowup
 			event.preventDefault();
 			scrollToPreviousSection(heights, currentScroll);
 			break;
