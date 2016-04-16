@@ -2,7 +2,7 @@ $(function(){
 	
 	var titleSkills =     "Kompetenzen";
 	var titleProject =    "Ihr Projekt";
-	var titleAbout = "&Uuml;ber uns&nbsp;&nbsp;&nbsp;";
+	var titleAbout = "&nbsp;&Uuml;ber uns&nbsp;&nbsp;";
 	
 	var skillDynamicTitle = "Bewegte Aufnahmen";
 	var skillDynamicText = "Keine Lust mehr auf feste Perspektiven von einem Stativ in der Ecke des Raums? Wir finden nicht nur f&uuml;r jede Aufnahme eine andere Position, sondern k&ouml;nnen auch fl&uuml;ssige Kamerabewegungen bieten. Damit wirkt die Action umso mehr. Dank unserer Erfahrung entdecken wir die spannendsten Winkel ohne einen Moment zu verpassen.";
@@ -16,15 +16,15 @@ $(function(){
 	var skillFlexibleTitle = "Flexibilit&auml;t";
 	var skillFlexibleText = "Dank unserer leichten Ausr&uuml;stung k&ouml;nnen wir jeden Ort einfach erreichen. Unsere Verbindungen mit anderen Filmemachern erlauben es uns, jederzeit weitere Spezialisten in Anspruch zu nehmen. Bei uns z&aumlhlt nur, ob am Ende die gew&uuml;nschten Aufnahmen vorhanden sind."
 	
-	var projectColumn0Text = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.";
-	var projectColumn1Text = "Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ";
+	var projectColumn0Text = "Wir freuen uns auf eine produktive Zusammenarbeit, senden Sie uns doch gleich eine <span class='email'>E-Mail</span>!";
+	var projectColumn1Text = "";
 	
-	var aboutFabianText = "Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen Pfannkuchen ";
-	var aboutPascalText = "Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne Lasagne ";
+	var aboutFabianText = "";
+	var aboutPascalText = "";
 	
 	var language = (window.navigator.userLanguage || window.navigator.language).substr(0,2);
 	
-	if (language == "en"){
+	if (language == "de"){
 		$(".titleSkills").html(titleSkills);
 		$(".titleProject").html(titleProject);
 		$(".titleAbout").html(titleAbout);
