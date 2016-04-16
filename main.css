@@ -373,7 +373,7 @@ hr{
     padding: 0 20px;
   }
 }
-@media(max-width: 720px){
+@media(max-width: 680px){
   .columnParent{
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -395,7 +395,7 @@ hr{
 .skillText{
   margin-left: 220px;
 }
-@media(max-width: 690px){
+@media(max-width: 680px){
   .skillText{
     margin-left: 0px;
     text-align: center;
