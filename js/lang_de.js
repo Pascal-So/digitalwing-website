@@ -24,7 +24,7 @@ $(function(){
 	
 	var language = (window.navigator.userLanguage || window.navigator.language).substr(0,2);
 	
-	if (language == "en"){
+	if (language == "de"){
 		$(".titleSkills").html(titleSkills);
 		$(".titleProject").html(titleProject);
 		$(".titleAbout").html(titleAbout);
