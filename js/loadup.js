@@ -8,5 +8,7 @@ $(function(){
 		}, 500);
 	});
 	
+	$(".skillLink").attr("href", "#skills");
+	$(".navlink > a").attr("href", "#title");
 
 });

@@ -16,7 +16,7 @@ $(function(){
 	var skillFlexibleTitle = "Flexibility";
 	var skillFlexibleText = "Thanks to our state-of-the-art and lightweight equipment we're not stopped by crowded events or rural places that are hard to reach. We're well networked within the community of filmmakers. On demand and with your approval we'll bring in further experts. We do everything for the shot."
 	
-	var projectColumn0Text = "Whether it's a commercial you're planning, a concert, a music video or just about any other event, we're looking forward to working with you. Go ahead and send us an <span class='email'>email</span> to get started!";
+	var projectColumn0Text = "Whether it's a commercial you're planning, a concert, a music video or just about any other event, we're looking forward to working with you. During our conversation we'll note down basic conditions and expectations. With that information we'll create an individual offer. Of course we'll stay in direct contact during the realization of your project. Go ahead and send us an <span class='email'>email</span> to get started!";
 	var projectColumn1Text = "Feel free to contact us with inquiries about estimated time frames. We'll do our best to give you an accurate prediction after discussing your plans with you.";
 	
 	var aboutFabianText = "Be it a DV camcorder or a modern movie camera, Fabian has always felt a bias towards the moving image. If he can't be found he's most likely out hunting for locations in the mountains.";

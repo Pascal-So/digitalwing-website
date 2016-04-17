@@ -10,7 +10,6 @@ $(function(){
 		if(window.innerWidth < 750){
 			return;
 		}
-		e.preventDefault();
 		$("#ytOverlay").removeClass("invisible");
 		$("#screenDarkener").removeClass("invisible");
 		var options = "autoplay=1&rel=0&enablejsapi=1";

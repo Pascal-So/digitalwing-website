@@ -54,7 +54,6 @@ $(function(){
 	}
 
 
-	$(".navlink > a").attr("href", "#title");
 
 	$('#skillsLink').click(function(e){
 		scrollToPosition($('#skills').offset().top, 400*speedFactor);
