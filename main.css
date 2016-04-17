@@ -307,21 +307,21 @@ hr{
   filter: alpha(opacity=20);
 }
 .skillPic:hover .playIconGoesHere{
-  opacity: 0.8 !important;
-  filter: alpha(opacity=80) !important;
+  opacity: 0.9 !important;
+  filter: alpha(opacity=90) !important;
 }
 
 #lowLightSkillPic .playIconGoesHere{
-  opacity: 0.2;
-  filter: alpha(opacity=20);
-}
-#editingSkillPic .playIconGoesHere{
   opacity: 0.3;
   filter: alpha(opacity=30);
 }
+#editingSkillPic .playIconGoesHere{
+  opacity: 0.45;
+  filter: alpha(opacity=45);
+}
 #dynamicSkillPic .playIconGoesHere{
-  opacity: 0.10;
-  filter: alpha(opacity=10);
+  opacity: 0.15;
+  filter: alpha(opacity=15);
 }
 
 #lowLightSkillPic{
@@ -636,7 +636,6 @@ nav span {
 #rightoverlay {
 	width: 50%;
 	text-align: right;
-	font-size: 16px;
 	padding: 5px;
 }
 .footerColumnParent{  
@@ -647,7 +646,7 @@ nav span {
   margin: 20px;
   margin-bottom: 10px;
   margin-top: 10px;
-}
+}	
 @media(max-width: 480px){
 	.footerColumnParent{
 		-webkit-flex-direction: column-reverse;
@@ -659,6 +658,10 @@ nav span {
 		padding: 0px;
 		width: 100%;
 		text-align: center;
+		color: #ddd;
+	}
+	#bg-darken {
+		background: rgba(0, 0, 0, 0.5);
 	}
 	#rightoverlay {
 		text-align: center;
@@ -666,7 +669,7 @@ nav span {
 		padding-bottom: 5px;
 	}
 	#footer{
-		height: 110px;
+		height: 120px;
 		background-position: center 60%;
 	}
 }
@@ -678,7 +681,7 @@ nav span {
 	padding: 10px;
 	padding-bottom: 5px;
 	text-align: center;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(50, 50, 50, 0.4);
 	border-radius: 0px 0px 0px 5px;
 	font-family: "CodeLight";
 	font-weight: 700;
@@ -708,7 +711,7 @@ nav span {
 	margin-bottom: 5px;
 }
 .langLink a{
-	color: #ddd;
+	color: #ccc;
 }
 .langLink a:hover{
 	color: #fff;

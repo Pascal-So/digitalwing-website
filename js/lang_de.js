@@ -16,7 +16,7 @@ $(function(){
 	var skillFlexibleTitle = "Flexibilit&auml;t";
 	var skillFlexibleText = "Wir sind mit einer modernen und vorteilhaft mobilen Technik ausgestattet. Auch sehr belebte Events oder landschaftlich entlegene Orte können wir erreichen. In der Community der Filmemachern sind wir gut vernetzt. Bei Bedarf und nach Absprache mit Ihnen nehmen wir weitere Spezialisten in Anspruch. Bei uns zählt, dass Sie am Ende die gewünschte Aufnahme erhalten."
 	
-	var projectColumn0Text = "Ob Werbespot, Konzert, Musikvideo oder anderes Event, wir freuen uns auf jede neue Herausforderung. Im Gespräch mit Ihnen notieren wir Rahmenbedingungen und Erwartungen. Daraus erstellen wir Ihr individuelles Angebot. Selbstverständlich wird die Umsetzung des Projektes in enger Zusammenarbeit mit Ihnen erfolgen. Sehr gerne erwarten wir Ihre Anfrage per <span class='email'>E-Mail</span>!";
+	var projectColumn0Text = "Ob Werbespot, Konzert, Musikvideo oder anderes Event, wir freuen uns auf jede neue Herausforderung. Im Gespräch mit Ihnen notieren wir Rahmenbedingungen und Erwartungen. Daraus erstellen wir Ihr individuelles Angebot. Selbstverständlich wird die Umsetzung des Projektes in enger Zusammenarbeit mit Ihnen erfolgen. <br><br>Sehr gerne erwarten wir Ihre Anfrage per <span class='email'>E-Mail</span>!";
 	var projectColumn1Text = "<br><br><table><tr><td>23.5.2012</td><td>blub</td></tr><tr><td>23.5.2012</td><td>blub</td></tr></table>";
 	
 	var aboutFabianText = "Ob DV Camcorder oder moderne Kinokamera, Fabian hatte schon immer eine Vorliebe zum bewegten Bild. Seine Freizeit verbringt er in den Bergen auf der Suche nach stimmungsvollen neuen Orten.";
