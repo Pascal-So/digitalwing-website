@@ -20,7 +20,7 @@ $(function(){
 	var projectColumn1Text = "Feel free to contact us with inquiries about estimated time frames. We'll do our best to give you an accurate prediction after discussing your plans with you.";
 	
 	var aboutFabianText = "Be it a DV camcorder or a modern movie camera, Fabian always felt a bias towards the moving image. If he can't be found he's most likely out hunting for locations in the mountains.";
-	var aboutPascalText = "After taking up photography in 2012, Pascal kept trying to find out new ways to capture motion in a still image. Whenever possible, He's always happy to bring in knowledge from some of his other favourite activities, such as computer science or music.";
+	var aboutPascalText = "After taking up photography in 2012, Pascal kept trying to find out new ways to capture motion in a still image. Whenever possible, he's always happy to bring in knowledge from some of his other favourite activities, such as computer science or music.";
 	
 	var language = (window.navigator.userLanguage || window.navigator.language).substr(0,2);
 	
