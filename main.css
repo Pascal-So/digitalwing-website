@@ -281,7 +281,7 @@ hr{
 
 .profilePicCenterer h2{
   float: left;
-  margin-top: 70px;
+  margin-top: 115px;
 }
 @media(max-width: 760px){ /*make profile pic smaller for narrow screens*/
   .profilePic{
@@ -341,7 +341,7 @@ hr{
 }
 
 #fabianPic{
-  background-image: url("img/fabian7.jpg");
+  background-image: url("img/fabian9.jpg");
 }
 
 #pascalPic{
