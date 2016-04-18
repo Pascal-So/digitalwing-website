@@ -723,6 +723,7 @@ nav span {
 
 #languageSelector {
 	position: fixed;
+  cursor: pointer;
 	top: 0px;
 	right: 0px;
 	padding: 10px;
@@ -757,10 +758,10 @@ nav span {
 .langLink {
 	margin-bottom: 5px;
 }
-.langLink a{
+.langLink{
 	color: #ccc;
 }
-.langLink a:hover{
+.langLink:hover{
 	color: #fff;
 }
 
