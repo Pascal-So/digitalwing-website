@@ -3,6 +3,7 @@ $(function(){
 	var titleSkills =     "Expertise";
 	var titleProject =    "Realizing your&nbsp;Project";
 	var titleAbout = "About us";
+	var titlePebble = "The crew";
 	
 	var skillDynamicTitle = "Dynamic shots";
 	var skillDynamicText = "Tired of static perspectives? We change perspective for every shot. We also offer smooth camera movements that emphasize the action. We find the most interesting looking angles without missing a moment.";
@@ -18,6 +19,20 @@ $(function(){
 	
 	var projectColumn0Text = "Whether it's a commercial you're planning, a concert, a music video or just about any other event, we're looking forward to working with you. During our conversation we'll note down basic conditions and expectations. With that information we'll create an individual offer. Of course we'll stay in direct contact during the realization of your project. <br><br>Go ahead and send us an <span class='email'>email</span> to get started!";
 	var projectColumn1Text = "Feel free to contact us with inquiries about estimated time frames. We'll do our best to give you an accurate prediction after discussing your plans with you.";
+	
+	var aboutDWLeftText = "We're a small studio based in Bern and Zurich. ";
+	var aboutDWRightText = "Our most recent projects include: <br><br><table>" +
+			"<tr><th>2016</th></tr>" +
+			"<tr><td>April</td><td>123</td></tr>" +
+			"<tr><td>February</td><td>123</td></tr>" +
+			"<tr><th>2015</th></tr>" +
+			"<tr><td>April</td><td>123</td></tr>" +
+			"<tr><td>February</td><td>123</td></tr>" +
+			"<tr><td></td><td></td></tr>" +
+			"<tr><td></td><td></td></tr>" +
+			"<tr><td></td><td></td></tr>" +
+			"<tr><td></td><td></td></tr>" +
+			"</table>";
 	
 	var aboutFabianText = "Be it a DV camcorder or a modern movie camera, Fabian has always felt a bias towards the moving image. If he can't be found he's most likely out hunting for locations in the mountains.";
 	var aboutPascalText = "After taking up photography in 2012, Pascal kept trying to find out new ways to capture motion in a still image. Whenever possible, he's always happy to bring in knowledge from some of his other favourite activities, such as computer science or music.";
@@ -36,6 +51,7 @@ $(function(){
 		$(".titleSkills").html(titleSkills);
 		$(".titleProject").html(titleProject);
 		$(".titleAbout").html(titleAbout);
+		$(".titlePebble").html(titlePebble);
 		$("#skillDynamicTitle").html(skillDynamicTitle);
 		$("#skillDynamicText").html(skillDynamicText);
 		$("#skillLowLightTitle").html(skillLowLightTitle);
@@ -46,6 +62,8 @@ $(function(){
 		$("#skillFlexibleText").html(skillFlexibleText);
 		$("#projectColumn0Text").html(projectColumn0Text);
 		$("#projectColumn1Text").html(projectColumn1Text);
+		$("#aboutDWLeftText").html(aboutDWLeftText);
+		$("#aboutDWRightText").html(aboutDWRightText);
 		$("#aboutFabianText").html(aboutFabianText);
 		$("#aboutPascalText").html(aboutPascalText);
 	}
