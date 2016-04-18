@@ -148,9 +148,11 @@ table {
 }
 td,
 th {
-  padding: 2px 10px 2px 0px; }
+	text-align: left;
+	padding: 2px 15px 2px 0px; }
 th{
 	padding-top: 15px;
+	padding-bottom: 4px;
 }
 /* normalize over */
 
@@ -217,6 +219,11 @@ p{
 }
 @media(max-width: 500px){
   p{
+    font-size: 80%;
+  }
+}
+@media(max-width: 500px){
+  td, th{
     font-size: 80%;
   }
 }
@@ -389,7 +396,7 @@ hr{
   padding-bottom: 0px;
   margin-bottom: 30px;
 }
-@media(max-width: 880px){
+@media(max-width: 1000px){
 	.aboutColumn{
 		padding: 0 15px;
 	}
@@ -397,7 +404,7 @@ hr{
 		padding: 0 15px;
 	}
 }
-@media(max-width: 700px){
+@media(max-width: 880px){
 	.columnParent{
 		-webkit-flex-direction: column;
 		flex-direction: column;
@@ -412,6 +419,26 @@ hr{
 	.aboutDW{
 		padding: 0px;
 	}
+}
+
+.aboutLink{
+	color: #777;
+}
+.aboutLink:hover{
+	color: #eee;
+}
+.aboutPlay{
+  width: 15px;
+  display: inline;
+  opacity: 0.4;
+  filter: alpha(opacity=20);
+}
+.aboutLink:hover .aboutPlay{
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+.centerTd{
+	width: 100%;
 }
 
 .skill{
@@ -739,4 +766,9 @@ nav span {
 
 .titlePebble{
 	font-size: 32px;
+}
+@media(max-width: 600px){
+	.titlePebble{
+		font-size: 25px;
+	}
 }
