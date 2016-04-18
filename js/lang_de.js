@@ -19,15 +19,15 @@ $(function(){
 	
 	var projectText = "Ob Werbespot, Konzert, Musikvideo oder anderes Event, wir freuen uns auf jede neue Herausforderung. Unser Arbeitsprozess beginnt mit einem Gespräch mit Ihnen, wobei wir uns ihre Erwartungen und Rahmenbedingungen notieren. Daraus erstellen wir Ihr individuelles Angebot. Selbstverständlich wird die Umsetzung des Projektes in enger Zusammenarbeit mit Ihnen erfolgen. <br><br>Sehr gerne erwarten wir Ihre Anfrage per <span class='email'>E-Mail</span>!";
 	
-	var aboutDWLeftText = "Wir sind ein kleines Studio mit Sitz in <span itemprop=\"areaServed\">Bern</span> and <span itemprop=\"areaServed\">Zürich</span>. Filme machen ist unsere Passion. Wir arbeiten seit der Oberstufe zusammen, und sind seither konstant am Üben.<br><br>Unser Arbeitsprozess ist einfach aber dennoch effizient, was uns erlaubt, Projekt in einer relativ kurzen Zeit fertigzustellen.<br><br>Unsere kürzlich fertiggestellten Projekte beinhalten:";
+	var aboutDWLeftText = "Wir sind ein kleines Studio mit Sitz in <span itemprop=\"areaServed\">Bern</span> und <span itemprop=\"areaServed\">Zürich</span>. Filme zu drehen ist unsere Leidenschaft. Seit der Schulzeit arbeiten wir zusammen und verbessern uns stetig.<br><br>Unser Arbeitsprozess ist einfach dennoch effizient, was es uns erlaubt, Projekte in einer relativ kurzen Zeit fertigzustellen.<br><br>Kürzlich abgeschlossene Projekte beinhalten:";
 	var aboutDWRightText = "<table>" +
 			"<tr><th class='firstTh'>2016</th></tr>" +
-			"<tr><td>April</td><td class='centerTd'>Promo für Skye by Aerotainment Labs</td><td><a class='aboutLink ytLink' href='https://youtu.be/DszwR1-fmLs' target='_blank' id='DszwR1-fmLs' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Anschauen</a></td></tr>" +
+			"<tr><td>April</td><td class='centerTd'>Promo für Skye von Aerotainment Labs</td><td><a class='aboutLink ytLink' href='https://youtu.be/DszwR1-fmLs' target='_blank' id='DszwR1-fmLs' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Anschauen</a></td></tr>" +
 			"<tr><td>Februar</td><td class='centerTd'>Musikvideo <q>Fly</q> (4K)</td><td><a class='aboutLink ytLink' href='https://youtu.be/NL3joKd7P-A' target='_blank' id='NL3joKd7P-A' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Anschauen</a></td></tr>" +
 			"<tr><th>2015</th></tr>" +
 			"<tr><td>Dezember</td><td class='centerTd'>Kurzvideo für Aerotainment an der UZH</td></tr>" +
 			"<tr><td>November</td><td class='centerTd'>Promo Seelandindoorcycling</td><td><a class='aboutLink ytLink' href='https://youtu.be/RFJGh29AScw' target='_blank' id='RFJGh29AScw' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Anschauen</a></td></tr>" +
-			"<tr><td>September</td><td class='centerTd'>Mittelalterfest Kiesen</td><td><a class='aboutLink ytLink' href='https://youtu.be/41R56juAyfA' target='_blank' id='41R56juAyfA' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Anschauen</a></td></tr>" +
+			"<tr><td>September</td><td class='centerTd'>Mittelaltermarkt Kiesen</td><td><a class='aboutLink ytLink' href='https://youtu.be/41R56juAyfA' target='_blank' id='41R56juAyfA' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Anschauen</a></td></tr>" +
 			"</table>";
 	
 	var aboutFabianText = "Ob DV Camcorder oder moderne Kinokamera, Fabian hatte schon immer eine Vorliebe zum bewegten Bild. Seine Freizeit verbringt er in den Bergen auf der Suche nach stimmungsvollen neuen Orten.";
