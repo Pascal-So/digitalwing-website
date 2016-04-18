@@ -17,8 +17,7 @@ $(function(){
 	var skillFlexibleTitle = "Flexibilit&auml;t";
 	var skillFlexibleText = "Wir sind mit einer modernen und vorteilhaft mobilen Technik ausgestattet. Auch sehr belebte Events oder landschaftlich entlegene Orte können wir erreichen. In der Community der Filmemachern sind wir gut vernetzt. Bei Bedarf und nach Absprache mit Ihnen nehmen wir weitere Spezialisten in Anspruch. Bei uns zählt, dass Sie am Ende die gewünschte Aufnahme erhalten."
 	
-	var projectColumn0Text = "Ob Werbespot, Konzert, Musikvideo oder anderes Event, wir freuen uns auf jede neue Herausforderung. Unser Arbeitsprozess beginnt mit einem Gespräch mit Ihnen, wobei wir uns ihre Erwartungen und Rahmenbedingungen notieren. Daraus erstellen wir Ihr individuelles Angebot. Selbstverständlich wird die Umsetzung des Projektes in enger Zusammenarbeit mit Ihnen erfolgen. <br><br>Sehr gerne erwarten wir Ihre Anfrage per <span class='email'>E-Mail</span>!";
-	var projectColumn1Text = "<br><br><table><tr><td>23.5.2012</td><td>blub</td></tr><tr><td>23.5.2012</td><td>blub</td></tr></table>";
+	var projectText = "Ob Werbespot, Konzert, Musikvideo oder anderes Event, wir freuen uns auf jede neue Herausforderung. Unser Arbeitsprozess beginnt mit einem Gespräch mit Ihnen, wobei wir uns ihre Erwartungen und Rahmenbedingungen notieren. Daraus erstellen wir Ihr individuelles Angebot. Selbstverständlich wird die Umsetzung des Projektes in enger Zusammenarbeit mit Ihnen erfolgen. <br><br>Sehr gerne erwarten wir Ihre Anfrage per <span class='email'>E-Mail</span>!";
 	
 	var aboutDWLeftText = "Wir sind ein kleines Studio mit Sitz in <span itemprop=\"areaServed\">Bern</span> and <span itemprop=\"areaServed\">Zürich</span>. Filme machen ist unsere Passion. Wir arbeiten seit der Oberstufe zusammen, und sind seither konstant am Üben.<br><br>Unser Arbeitsprozess ist einfach aber dennoch effizient, was uns erlaubt, Projekt in einer relativ kurzen Zeit fertigzustellen.";
 	var aboutDWRightText = "Unsere kürzlich fertiggestellten Projekte beinhalten: <br><table>" +
@@ -57,8 +56,7 @@ $(function(){
 		$("#skillEditingText").html(skillEditingText);
 		$("#skillFlexibleTitle").html(skillFlexibleTitle);
 		$("#skillFlexibleText").html(skillFlexibleText);
-		$("#projectColumn0Text").html(projectColumn0Text);
-		$("#projectColumn1Text").html(projectColumn1Text);
+		$("#projectText").html(projectText);
 		$("#aboutDWLeftText").html(aboutDWLeftText);
 		$("#aboutDWRightText").html(aboutDWRightText);
 		$("#aboutFabianText").html(aboutFabianText);
