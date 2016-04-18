@@ -384,10 +384,18 @@ hr{
 }
 .aboutColumn{
   width: 50%;
-  padding: 50px;
+  padding: 40px;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+.narrowColumn{
+  -webkit-flex: 2 0 0;
+  flex: 2 0 0;
+}
+.wideColumn{
+  -webkit-flex: 5 0 0;
+  flex: 5 0 0;
 }
 .projectColumn{
   width: 100%;
@@ -723,7 +731,6 @@ nav span {
 
 #languageSelector {
 	position: fixed;
-  cursor: pointer;
 	top: 0px;
 	right: 0px;
 	padding: 10px;
@@ -756,6 +763,7 @@ nav span {
 	}
 }
 .langLink {
+  cursor: pointer;
 	margin-bottom: 5px;
 }
 .langLink{
