@@ -17,12 +17,14 @@ $(function(){
 	var skillFlexibleTitle = "Flexibility";
 	var skillFlexibleText = "Thanks to our state-of-the-art and lightweight equipment we're not stopped by crowded events or rural places that are hard to reach. We're well networked within the community of filmmakers. On demand and with your approval we'll bring in further experts. We do everything for the shot.";
 	
-	var projectColumn0Text = "Whether it's a commercial you're planning, a concert, a music video or just about any other event, we're looking forward to working with you. During our conversation we'll note down basic conditions and expectations. With that information we'll create an individual offer. Of course we'll stay in direct contact during the realization of your project. <br><br>Go ahead and send us an <span class='email'>email</span> to get started!";
-	var projectColumn1Text = "Feel free to contact us with inquiries about estimated time frames. We'll do our best to give you an accurate prediction after discussing your plans with you.";
+	var projectText = "Whether it's a commercial you're planning, a concert, a music video or just about any other event, we're looking forward to working with you. Our process begins with an initial conversation with you, during which we note down your basic expectations and conditions. With that information we'll create an individual offer. Of course we'll stay in direct contact during the realization of your project. <br><br>Go ahead and send us an <span class='email'>email</span> to get started!";
 	
-	var aboutDWLeftText = "We're a small studio based in Switzerland. Filmmaking is our passion.<br><br>Our workflow is simple yet efficient, which allows us to finish projects without much of a delay.";
-	var aboutDWRightText = "Our most recent projects include: <br><table>" +
-			"<tr><th>2016</th></tr>" +
+	var aboutDWLeftText = "We're a small studio based in <span itemprop=\"areaServed\">Bern</span> and <span itemprop=\"areaServed\">Zurich</span>. Filmmaking is our passion. We started working together during schooldays, and have been practicing ever since. <br><br>Due to our simple yet efficient workflow, we can finish projects in a relatively short amount of time.<br><br>" + 
+			"Our most recent projects include: <br><br><table>" +
+			
+			"</table>";
+	var aboutDWRightText = "<table>" +
+			"<tr><th class='firstTh'>2016</th></tr>" +
 			"<tr><td>April</td><td class='centerTd'>Promo for Skye by Aerotainment Labs</td><td><a class='aboutLink ytLink' href='https://youtu.be/DszwR1-fmLs' target='_blank' id='DszwR1-fmLs' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
 			"<tr><td>February</td><td class='centerTd'>Music video <q>Fly</q> (4K)</td><td><a class='aboutLink ytLink' href='https://youtu.be/NL3joKd7P-A' target='_blank' id='NL3joKd7P-A' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
 			"<tr><th>2015</th></tr>" +
@@ -57,8 +59,7 @@ $(function(){
 		$("#skillEditingText").html(skillEditingText);
 		$("#skillFlexibleTitle").html(skillFlexibleTitle);
 		$("#skillFlexibleText").html(skillFlexibleText);
-		$("#projectColumn0Text").html(projectColumn0Text);
-		$("#projectColumn1Text").html(projectColumn1Text);
+		$("#projectText").html(projectText);
 		$("#aboutDWLeftText").html(aboutDWLeftText);
 		$("#aboutDWRightText").html(aboutDWRightText);
 		$("#aboutFabianText").html(aboutFabianText);
