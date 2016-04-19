@@ -19,8 +19,9 @@ $(function(){
 	
 	var projectText = "Ob Werbespot, Konzert, Musikvideo oder anderes Event, wir freuen uns auf jede neue Herausforderung. Unser Arbeitsprozess beginnt mit einem Gespräch mit Ihnen, wobei wir uns ihre Erwartungen und Rahmenbedingungen notieren. Daraus erstellen wir Ihr individuelles Angebot. Selbstverständlich wird die Umsetzung des Projektes in enger Zusammenarbeit mit Ihnen erfolgen. <br><br>Sehr gerne erwarten wir Ihre Anfrage per <span class='email'>E-Mail</span>!";
 	
-	var aboutDWLeftText = "Wir sind ein kleines Studio mit Sitz in <span itemprop=\"areaServed\">Bern</span> und <span itemprop=\"areaServed\">Zürich</span>. Filme zu drehen ist unsere Leidenschaft. Seit der Schulzeit arbeiten wir zusammen und verbessern uns stetig.<br><br>Unser Arbeitsprozess ist einfach dennoch effizient, was es uns erlaubt, Projekte in einer relativ kurzen Zeit fertigzustellen.<br><br>Kürzlich abgeschlossene Projekte beinhalten:";
-	var aboutDWRightText = "<table>" +
+	var aboutDWLeftText = "Wir sind ein kleines Studio mit Sitz in <span itemprop=\"areaServed\">Bern</span> und <span itemprop=\"areaServed\">Zürich</span>. Filme zu drehen ist unsere Leidenschaft. Seit der Schulzeit arbeiten wir zusammen und verbessern uns stetig.";
+	var aboutDWRightText = "Unser Arbeitsprozess ist einfach dennoch effizient, was es uns erlaubt, Projekte in einer relativ kurzen Zeit fertigzustellen.";
+	var aboutDWList = "<table>" +
 			"<tr><th class='firstTh'>2016</th></tr>" +
 			"<tr><td>April</td><td class='centerTd'>Promo für Skye von Aerotainment Labs</td><td><a class='aboutLink ytLink' href='https://youtu.be/DszwR1-fmLs' target='_blank' id='DszwR1-fmLs' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Anschauen</a></td></tr>" +
 			"<tr><td>Februar</td><td class='centerTd'>Musikvideo <q>Fly</q> (4K)</td><td><a class='aboutLink ytLink' href='https://youtu.be/NL3joKd7P-A' target='_blank' id='NL3joKd7P-A' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Anschauen</a></td></tr>" +
@@ -59,6 +60,7 @@ $(function(){
 		$("#projectText").html(projectText);
 		$("#aboutDWLeftText").html(aboutDWLeftText);
 		$("#aboutDWRightText").html(aboutDWRightText);
+		$("#aboutDWList").html(aboutDWList);
 		$("#aboutFabianText").html(aboutFabianText);
 		$("#aboutPascalText").html(aboutPascalText);
 	}

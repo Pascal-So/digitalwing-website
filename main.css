@@ -145,11 +145,14 @@ optgroup {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  max-width: 600px;
+  margin: auto;
 }
 td,
 th {
 	text-align: left;
-	padding: 0px 15px 2px 0px; }
+	padding: 0px 15px 2px 10px; 
+	}
 th{
 	padding-top: 10px;
 	padding-bottom: 4px;
@@ -778,11 +781,22 @@ nav span {
 .spacer {
 	height: 14px;
 }
-.titlePebble{
+.tableLine{
+	max-width: 600px;
+}
+@media(max-width: 880px) { 
+	table{
+		max-width: initial;
+	}
+	.tableLine{
+		display: none;
+	}
+}
+.titlePebble, .titleRecent{
 	font-size: 32px;
 }
 @media(max-width: 600px){
-	.titlePebble{
+	.titlePebble, .titleRecent{
 		font-size: 25px;
 	}
 }
