@@ -410,6 +410,14 @@ hr{
   padding-bottom: 0px;
   margin-bottom: 30px;
 }
+.projectLine{
+	
+}
+@media(max-width: 880px){
+	.projectLine{
+		display: none;
+	}
+}
 @media(max-width: 1000px){
 	.aboutColumn{
 		padding: 0 15px;
