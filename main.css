@@ -186,7 +186,7 @@ body {
 /* ####################### ACTUAL CSS TO LOOK AT ####################*/
 
 body{
-  color: #777;
+  color: #888;
 }
 
 div{
@@ -319,8 +319,8 @@ hr{
   display: inline;;
   position: relative;
   top: 33%;
-  opacity: 0.2;
-  filter: alpha(opacity=20);
+  opacity: 0.25;
+  filter: alpha(opacity=25);
 }
 .skillPic:hover .playIconGoesHere{
   opacity: 0.9 !important;
@@ -328,16 +328,20 @@ hr{
 }
 
 #lowLightSkillPic .playIconGoesHere{
-  opacity: 0.3;
-  filter: alpha(opacity=30);
+  opacity: 0.35;
+  filter: alpha(opacity=35);
 }
 #editingSkillPic .playIconGoesHere{
   opacity: 0.45;
-  filter: alpha(opacity=45);
+  filter: alpha(opacity=55);
 }
 #dynamicSkillPic .playIconGoesHere{
-  opacity: 0.15;
-  filter: alpha(opacity=15);
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+#flexibleSkillPic .playIconGoesHere{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 #lowLightSkillPic{
@@ -559,7 +563,7 @@ iframe{
 
 #projectFlexContainer{
   color: #444;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255,255,255,0.65);
 }
 
 .sectionFlexContainer{
@@ -777,11 +781,9 @@ nav span {
 	}
 }
 .langLink {
-  cursor: pointer;
+	cursor: pointer;
 	margin-bottom: 5px;
-}
-.langLink{
-	color: #ccc;
+	color: #eee;
 }
 .langLink:hover{
 	color: #fff;
@@ -790,6 +792,7 @@ nav span {
 	height: 14px;
 }
 .tableLine{
+	background-color: #444;
 	max-width: 600px;
 }
 @media(max-width: 880px) { 
