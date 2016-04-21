@@ -4,6 +4,7 @@ $(function(){
 	var titleProject =    "Ihr Projekt";
 	var titleAbout = "&nbsp;&Uuml;ber uns&nbsp;&nbsp;";
 	var titlePebble = "Das Team";
+	var titleRecent = "Letzte Projekte";
 	
 	var skillDynamicTitle = "Bewegte Aufnahmen";
 	var skillDynamicText = "Keine Lust mehr auf feste Perspektiven von einem Stativ in der Ecke des Raums? Wir finden für jeden Clip eine neue Position. Übergänge ersetzen wir durch flüssige Kamerabewegungen. Damit wird die Wirkung des Geschehens noch verstärkt. Dank unserer Erfahrung entdecken wir die spannendsten Winkel ohne einen Moment zu verpassen.";
@@ -49,6 +50,7 @@ $(function(){
 		$(".titleProject").html(titleProject);
 		$(".titleAbout").html(titleAbout);
 		$(".titlePebble").html(titlePebble);
+		$(".titleRecent").html(titleRecent);
 		$("#skillDynamicTitle").html(skillDynamicTitle);
 		$("#skillDynamicText").html(skillDynamicText);
 		$("#skillLowLightTitle").html(skillLowLightTitle);

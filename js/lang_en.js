@@ -4,6 +4,7 @@ $(function(){
 	var titleProject =    "Realizing your&nbsp;Project";
 	var titleAbout = "About us";
 	var titlePebble = "The crew";
+	var titleRecent = "Recent projects";
 	
 	var skillDynamicTitle = "Dynamic shots";
 	var skillDynamicText = "Tired of static perspectives? We change perspective for every shot. We also offer smooth camera movements that emphasize the action. We find the most interesting looking angles without missing a moment.";
@@ -52,6 +53,7 @@ $(function(){
 		$(".titleProject").html(titleProject);
 		$(".titleAbout").html(titleAbout);
 		$(".titlePebble").html(titlePebble);
+		$(".titleRecent").html(titleRecent);
 		$("#skillDynamicTitle").html(skillDynamicTitle);
 		$("#skillDynamicText").html(skillDynamicText);
 		$("#skillLowLightTitle").html(skillLowLightTitle);
