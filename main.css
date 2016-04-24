@@ -616,13 +616,24 @@ iframe{
 header {
   position: relative;
   height: 100vh;
-  background-image: url(img/gradysunny.jpg);
+  background-image: url(img/gradysunny_med.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: top right;
   text-align: center;
-  color: rgba(250, 250, 250, 0.8); }
+  color: rgba(250, 250, 250, 0.8); 
+}
+@media(max-width: 1280px){
+	header {
+		background-image: url(img/gradysunny_small.jpg);
+	}
+}
+@media(min-width: 2500px){
+	header {
+		background-image: url(img/gradysunny_big.jpg);
+	}
+}
 
 #title {
   width: 100%;
