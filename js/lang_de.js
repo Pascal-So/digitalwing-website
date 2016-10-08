@@ -24,6 +24,7 @@ $(function(){
 	var aboutDWRightText = "Unser Arbeitsprozess ist einfach dennoch effizient, was es uns erlaubt, Projekte in einer relativ kurzen Zeit fertigzustellen.";
 	var aboutDWList = "<table>" +
 			"<tr><th class='firstTh'>2016</th></tr>" +
+			"<tr><td>Oktober</td><td class='centerTd'>Skye am Cybathlon 2016</td></tr>" + 
 			"<tr><td>April</td><td class='centerTd'>Promo für Skye von Aerotainment Labs</td><td><a class='aboutLink ytLink' href='https://youtu.be/DszwR1-fmLs' target='_blank' id='DszwR1-fmLs' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Anschauen</a></td></tr>" +
 			"<tr><td>Februar</td><td class='centerTd'>Musikvideo <q>Fly</q> (4K)</td><td><a class='aboutLink ytLink' href='https://youtu.be/NL3joKd7P-A' target='_blank' id='NL3joKd7P-A' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Anschauen</a></td></tr>" +
 			"<tr><th>2015</th></tr>" +
