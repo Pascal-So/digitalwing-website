@@ -27,14 +27,15 @@ $(function(){
 	var aboutDWRightText = "Due to our simple yet efficient workflow, we can finish projects in a relatively short amount of time."; 
 	var aboutDWList = "<table>" +
 			"<tr><th class='firstTh'>2016</th></tr>" +
-			"<tr><td>November</td><td class='centerTd'>Seelandindoorcycling 2016</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=cyaQJswTQCM' target='' id='cyaQJswTQCM' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>November</td><td class='centerTd'>Seelandindoorcycling 2016</td><td><a class='aboutLink ytLink' href='#about' target='' id='cyaQJswTQCM' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>November</td><td class='centerTd'>Music video <q>Waves</q></td><td><a class='aboutLink ytLink' href='#about' target='' id='hzR74WpFa4Q' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
 			"<tr><td>October</td><td class='centerTd'>Skye at Cybathlon 2016</td></tr>" + 
-			"<tr><td>April</td><td class='centerTd'>Promo for Skye by Aerotainment Labs</td><td><a class='aboutLink ytLink' href='https://youtu.be/DszwR1-fmLs' target='_blank' id='DszwR1-fmLs' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
-			"<tr><td>February</td><td class='centerTd'>Music video <q>Fly</q> (4K)</td><td><a class='aboutLink ytLink' href='https://youtu.be/NL3joKd7P-A' target='_blank' id='NL3joKd7P-A' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>April</td><td class='centerTd'>Promo for Skye by Aerotainment Labs</td><td><a class='aboutLink ytLink' href='#about' target='' id='DszwR1-fmLs' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>February</td><td class='centerTd'>Music video <q>Fly</q> (4K)</td><td><a class='aboutLink ytLink' href='#about' target='' id='NL3joKd7P-A' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
 			"<tr><th>2015</th></tr>" +
 			"<tr><td>December</td><td class='centerTd'>Short video of Aerotainment at the UZH</td></tr>" +
-			"<tr><td>November</td><td class='centerTd'>Promo Seelandindoorcycling</td><td><a class='aboutLink ytLink' href='https://youtu.be/RFJGh29AScw' target='_blank' id='RFJGh29AScw' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
-			"<tr><td>September</td><td class='centerTd'>Medieval Fair Kiesen</td><td><a class='aboutLink ytLink' href='https://youtu.be/41R56juAyfA' target='_blank' id='41R56juAyfA' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>November</td><td class='centerTd'>Promo Seelandindoorcycling</td><td><a class='aboutLink ytLink' href='#about' target='' id='RFJGh29AScw' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>September</td><td class='centerTd'>Medieval Fair Kiesen</td><td><a class='aboutLink ytLink' href='#about' target='' id='41R56juAyfA' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
 			"</table>";
 	
 	var aboutFabianText = "Be it a DV camcorder or a modern movie camera, Fabian has always felt a bias towards the moving image. If he can't be found he's most likely out hunting for locations in the mountains.";
