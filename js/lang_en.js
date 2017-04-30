@@ -16,7 +16,7 @@ $(function(){
 	var skillEditingText = "Whether it is an action packed commercial or a frugal documentary, our experience in 2D and 3D visual effects can enrich your production. When it comes to giving your project the finishing touch, we offer an individual soundtrack as well as enhancing the footage with a vibrant colour grade.";
 	
 	var skillFlexibleTitle = "Flexibility";
-	var skillFlexibleText = "Thanks to our state-of-the-art and lightweight equipment we're not stopped by crowded events or rural places that are hard to reach. We're well networked within the community of filmmakers. On demand and with your approval we'll bring in further experts. We do everything for the shot.";
+	var skillFlexibleText = "Thanks to our state-of-the-art and lightweight equipment we're not stopped by crowded events or rural places that are hard to reach. The Swiss Alps are where we feel at home. We're well networked within the community of filmmakers. On demand and with your approval we'll bring in further experts. We do everything for the shot.";
 	
 	var projectText = "Whether it's a commercial you're planning, a concert, a music video or just about any other event, we're looking forward to working with you. Our process begins with an initial conversation with you, during which we note down your basic expectations and conditions. With that information we'll create an individual offer. Of course we'll stay in direct contact during the realization of your project. <br><br>Go ahead and send us an <span class='email'>email</span> to get started!";
 	
@@ -26,16 +26,18 @@ $(function(){
 			"</table>";
 	var aboutDWRightText = "Due to our simple yet efficient workflow, we can finish projects in a relatively short amount of time."; 
 	var aboutDWList = "<table>" +
-			"<tr><th class='firstTh'>2016</th></tr>" +
-			"<tr><td>November</td><td class='centerTd'>Seelandindoorcycling 2016</td><td><a class='aboutLink ytLink' href='#about' target='' id='cyaQJswTQCM' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
-			"<tr><td>November</td><td class='centerTd'>Music video <q>Waves</q></td><td><a class='aboutLink ytLink' href='#about' target='' id='hzR74WpFa4Q' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
+			"<tr><th class='firstTh'>2017</th></tr>" +
+			"<tr><td>January</td><td class='centerTd'>Ice Skating on the Oeschinensee</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=0o9kz2nUKug' target='' id='0o9kz2nUKug' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
+			"<tr><th>2016</th></tr>" +
+			"<tr><td>November</td><td class='centerTd'>Seelandindoorcycling 2016</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=cyaQJswTQCM' target='' id='cyaQJswTQCM' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>November</td><td class='centerTd'>Music video <q>Waves</q></td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=hzR74WpFa4Q' target='' id='hzR74WpFa4Q' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
 			"<tr><td>October</td><td class='centerTd'>Skye at Cybathlon 2016</td></tr>" + 
-			"<tr><td>April</td><td class='centerTd'>Promo for Skye by Aerotainment Labs</td><td><a class='aboutLink ytLink' href='#about' target='' id='DszwR1-fmLs' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
-			"<tr><td>February</td><td class='centerTd'>Music video <q>Fly</q> (4K)</td><td><a class='aboutLink ytLink' href='#about' target='' id='NL3joKd7P-A' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>April</td><td class='centerTd'>Promo for Skye by Aerotainment Labs</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=DszwR1-fmLs' target='' id='DszwR1-fmLs' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>February</td><td class='centerTd'>Music video <q>Fly</q> (4K)</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=NL3joKd7P-A' target='' id='NL3joKd7P-A' aspect='34.4%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
 			"<tr><th>2015</th></tr>" +
 			"<tr><td>December</td><td class='centerTd'>Short video of Aerotainment at the UZH</td></tr>" +
-			"<tr><td>November</td><td class='centerTd'>Promo Seelandindoorcycling</td><td><a class='aboutLink ytLink' href='#about' target='' id='RFJGh29AScw' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
-			"<tr><td>September</td><td class='centerTd'>Medieval Fair Kiesen</td><td><a class='aboutLink ytLink' href='#about' target='' id='41R56juAyfA' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>November</td><td class='centerTd'>Promo Seelandindoorcycling</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=RFJGh29AScw' target='' id='RFJGh29AScw' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>September</td><td class='centerTd'>Medieval Fair Kiesen</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=41R56juAyfA' target='' id='41R56juAyfA' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'/>&nbsp;Watch</a></td></tr>" +
 			"</table>";
 	
 	var aboutFabianText = "Be it a DV camcorder or a modern movie camera, Fabian has always felt a bias towards the moving image. If he can't be found he's most likely out hunting for locations in the mountains.";

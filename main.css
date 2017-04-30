@@ -340,8 +340,8 @@ hr{
   filter: alpha(opacity=20);
 }
 #flexibleSkillPic .playIconGoesHere{
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  opacity: 0.2;
+  filter: alpha(opacity=20);
 }
 
 #lowLightSkillPic{
@@ -353,11 +353,11 @@ hr{
 }
 
 #dynamicSkillPic{
-  background-image: url("img/jazz.jpg");
+  background-image: url("img/skating.jpg");
 }
 
 #flexibleSkillPic{
-  background-image: url("img/cloud2.jpg");
+  background-image: url("img/cave3.jpg");
 }
 
 #fabianPic{
