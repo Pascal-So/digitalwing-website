@@ -186,7 +186,7 @@ body {
 /* ####################### ACTUAL CSS TO LOOK AT ####################*/
 
 body{
-  color: #888;
+  color: #bbb;
 }
 
 div{
@@ -237,7 +237,7 @@ p{
 a{
   text-decoration: none;
   cursor: pointer;
-  color: #aaa;
+  color: #ccc;
 }
 a:hover{
   color: #fff;
@@ -289,7 +289,7 @@ hr{
   border-radius: 48%;
   width: 100%;
   height: 100%;
-  background-color: rgba(16,16,16,0.65);
+  background-color: rgba(16,16,16,0.3);
 }
 .profilePicCenterer{
   display: inline-block;
@@ -562,8 +562,8 @@ iframe{
 }
 
 #projectFlexContainer{
-  color: #444;
-  background-color: rgba(255,255,255,0.65);
+  color: #000;
+  background-color: rgba(255,255,255,0.69);
 }
 
 .sectionFlexContainer{
@@ -622,7 +622,7 @@ header {
   background-size: cover;
   background-position: top right;
   text-align: center;
-  color: rgba(250, 250, 250, 0.8); 
+  color: rgba(255, 255, 255, 1.0); 
 }
 @media(max-width: 1280px){
 	header {
@@ -651,6 +651,7 @@ header {
     font-size: 60px;
     letter-spacing: 3px; }
   #title p {
+    letter-spacing: 5px;
     margin: 0px;
     font-family: "CodeLight";
     font-weight: 700;
