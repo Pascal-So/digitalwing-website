@@ -12,6 +12,9 @@ $(function(){
 	var skillLowLightTitle = "Verf&uuml;gbares Licht";
 	var skillLowLightText = "Die Stimmung in der Disco oder das Ambiente der Mondlichtszene sind massgebend für den Erfolg Ihres Events. Für die Filmtechnik sind dies suboptimale Lichtverhältnisse. Jedoch zählt für uns die Atmosphäre mehr als jedes kleine Detail. Ohne künstlichen Perfektionismus und ohne unnötige Beleuchtung bieten wir Ihnen die naturgetreue Wiedergabe ihrer Veranstaltung.";
 	
+	var skillAerialTitle = "Luftaufnahmen";
+	var skillAerialText = "Mithilfe der neuesten Videodrohnen bringen wir Bewegung in Ihr Projekt. Durch den gezielten Einsatz und unsere gute Ausführung in Ihrer Produktion erzeugen Luftaufnahmen bleibende Eindrücke. Wir erweitern unser Arsenal stets mit neuester Technik und können diese nahtlos mit altbewährten Methoden kombinieren.";
+	
 	var skillEditingTitle = "Schnitt";
 	var skillEditingText = "Ob actiongeladener Werbespot oder schlichter Dokumentarfilm, unsere Erfahrung in zwei- und dreidimensionalen visuellen Effekten bereichert Ihre Produktion. Wenn es um den letzten Schliff Ihres Projekts geht, offerieren wir Ihnen gerne einen individuellen Soundtrack und beleben das Material mit einer wirksamen Farbkorrektur.";
 	
@@ -24,6 +27,10 @@ $(function(){
 	var aboutDWRightText = "Unser Arbeitsprozess ist einfach dennoch effizient, was es uns erlaubt, Projekte in einer relativ kurzen Zeit fertigzustellen.";
 	var aboutDWList = "<table>" +
 			"<tr><th class='firstTh'>2017</th></tr>" +
+			"<tr><td>September</td><td class='centerTd'>Energy Air 2017</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=McKV05DNzYo' target='' id='McKV05DNzYo' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Anschauen</a></td></tr>" +
+			"<tr><td>September</td><td class='centerTd'>Promo 4coach</td></tr>" +
+			"<tr><td>August</td><td class='centerTd'>Mittelaltermarkt Kiesen</td></tr>" +
+			"<tr><td>Juni</td><td class='centerTd'>Mittelalterduell auf dem Berg</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=V-CZY7CNU24' target='' id='V-CZY7CNU24' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Anschauen</a></td></tr>" +
 			"<tr><td>Januar</td><td class='centerTd'>Eislaufen auf dem Oeschinensee</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=0o9kz2nUKug' target='' id='0o9kz2nUKug' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Anschauen</a></td></tr>" +
 			"<tr><th>2016</th></tr>" +
 			"<tr><td>November</td><td class='centerTd'>Seelandindoorcycling 2016</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=cyaQJswTQCM' target='' id='cyaQJswTQCM' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Anschauen</a></td></tr>" +
@@ -60,6 +67,8 @@ $(function(){
 		$("#skillDynamicText").html(skillDynamicText);
 		$("#skillLowLightTitle").html(skillLowLightTitle);
 		$("#skillLowLightText").html(skillLowLightText);
+		$("#skillAerialTitle").html(skillAerialTitle);
+		$("#skillAerialText").html(skillAerialText);
 		$("#skillEditingTitle").html(skillEditingTitle);
 		$("#skillEditingText").html(skillEditingText);
 		$("#skillFlexibleTitle").html(skillFlexibleTitle);

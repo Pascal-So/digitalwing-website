@@ -12,6 +12,9 @@ $(function(){
 	var skillLowLightTitle = "Available Light";
 	var skillLowLightText = "The atmosphere in your nightclub or the ambience during the moonlight scene are decisive for the success of your event. For the film crew this means harsh and unfriendly lighting conditions. We preserve this special vibe without unneeded heavy lighting equipment.";
 	
+	var skillAerialTitle = "Aerial perspectives";
+	var skillAerialText = "Using modern drone technology, the sky is the limit. Well executed aerial cinematography will make your event shine in a whole new dimension. Thanks to our adaptable workflow we seamlessly integrate the newest video technology.";
+	
 	var skillEditingTitle = "Editing and Effects";
 	var skillEditingText = "Whether it is an action packed commercial or a frugal documentary, our experience in 2D and 3D visual effects can enrich your production. When it comes to giving your project the finishing touch, we offer an individual soundtrack as well as enhancing the footage with a vibrant colour grade.";
 	
@@ -27,6 +30,10 @@ $(function(){
 	var aboutDWRightText = "Due to our simple yet efficient workflow, we can finish projects in a relatively short amount of time."; 
 	var aboutDWList = "<table>" +
 			"<tr><th class='firstTh'>2017</th></tr>" +
+			"<tr><td>September</td><td class='centerTd'>Energy Air 2017</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=McKV05DNzYo' target='' id='McKV05DNzYo' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
+			"<tr><td>September</td><td class='centerTd'>Promo 4coach</td></tr>" +
+			"<tr><td>August</td><td class='centerTd'>Medieval Fair Kiesen</td></tr>" +
+			"<tr><td>June</td><td class='centerTd'>Medieval Duel on the Mountaintop</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=V-CZY7CNU24' target='' id='V-CZY7CNU24' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
 			"<tr><td>January</td><td class='centerTd'>Ice Skating on the Oeschinensee</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=0o9kz2nUKug' target='' id='0o9kz2nUKug' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
 			"<tr><th>2016</th></tr>" +
 			"<tr><td>November</td><td class='centerTd'>Seelandindoorcycling 2016</td><td><a class='aboutLink ytLink' href='https://www.youtube.com/watch?v=cyaQJswTQCM' target='' id='cyaQJswTQCM' aspect='45.0%'><img src='img/playIcon.svg' class='aboutPlay'>&nbsp;Watch</a></td></tr>" +
@@ -63,6 +70,8 @@ $(function(){
 		$("#skillDynamicText").html(skillDynamicText);
 		$("#skillLowLightTitle").html(skillLowLightTitle);
 		$("#skillLowLightText").html(skillLowLightText);
+		$("#skillAerialTitle").html(skillAerialTitle);
+		$("#skillAerialText").html(skillAerialText);
 		$("#skillEditingTitle").html(skillEditingTitle);
 		$("#skillEditingText").html(skillEditingText);
 		$("#skillFlexibleTitle").html(skillFlexibleTitle);

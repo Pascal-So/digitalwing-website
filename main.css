@@ -343,6 +343,11 @@ hr{
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
+#aerialSkillPic .playIconGoesHere{
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
 
 #lowLightSkillPic{
   background-image: url("img/bg.jpg");
@@ -358,6 +363,9 @@ hr{
 
 #flexibleSkillPic{
   background-image: url("img/cave3.jpg");
+}
+#aerialSkillPic{
+  background-image: url("img/drone.jpg");
 }
 
 #fabianPic{
