@@ -13,7 +13,7 @@ $(function(){
 	var skillLowLightText = "Die Stimmung in der Disco oder das Ambiente der Mondlichtszene sind massgebend für den Erfolg Ihres Events. Für die Filmtechnik sind dies suboptimale Lichtverhältnisse. Jedoch zählt für uns die Atmosphäre mehr als jedes kleine Detail. Ohne künstlichen Perfektionismus und ohne unnötige Beleuchtung bieten wir Ihnen die naturgetreue Wiedergabe ihrer Veranstaltung.";
 	
 	var skillAerialTitle = "Luftaufnahmen";
-	var skillAerialText = "Mithilfe der neuesten Videodrohnen bringen wir Bewegung in Ihr Projekt. Durch den gezielten Einsatz und unsere gute Ausführung in Ihrer Produktion erzeugen Luftaufnahmen bleibende Eindrücke. Wir erweitern unser Arsenal stets mit neuester Technik und können diese nahtlos mit altbewährten Methoden kombinieren.";
+	var skillAerialText = "Mithilfe der neuesten Videodrohnen bringen wir Bewegung in Ihr Projekt. Durch den gezielten Einsatz und gute Ausführung in Ihrer Produktion erzeugen unsere Luftaufnahmen bleibende Eindrücke. Wir erweitern unser Arsenal stets mit neuester Technik und können diese nahtlos mit altbewährten Methoden kombinieren.";
 	
 	var skillEditingTitle = "Schnitt";
 	var skillEditingText = "Ob actiongeladener Werbespot oder schlichter Dokumentarfilm, unsere Erfahrung in zwei- und dreidimensionalen visuellen Effekten bereichert Ihre Produktion. Wenn es um den letzten Schliff Ihres Projekts geht, offerieren wir Ihnen gerne einen individuellen Soundtrack und beleben das Material mit einer wirksamen Farbkorrektur.";
